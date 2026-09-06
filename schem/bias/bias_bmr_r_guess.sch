@@ -20,7 +20,7 @@ N 50 50 50 90 {lab=#net2}
 N 20 90 50 90 {lab=#net2}
 N 20 -10 70 -10 {lab=VG}
 C {vsource.sym} -140 10 0 0 {name=V1 value=1.8 savecurrent=false}
-C {isource.sym} 20 -70 0 0 {name=I0 value=10n}
+C {isource.sym} 20 -70 0 0 {name=I0 value=100n}
 C {sky130_fd_pr/nfet_01v8.sym} 0 50 0 0 {name=M1
 W=\{W\}
 L=4
