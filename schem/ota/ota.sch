@@ -102,9 +102,9 @@ C {lab_pin.sym} 200 -150 0 1 {name=p13 sig_type=std_logic lab=VCC}
 C {lab_pin.sym} 40 40 0 0 {name=p14 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/nfet_01v8.sym} 20 200 0 0 {name=M5
 W=1
-L=0.5
+L=1
 nf=1 
-mult=1
+mult=2
 ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
 pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
 as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
