@@ -1,4 +1,4 @@
-timestamp 1788807709
+timestamp 1788808479
 version 8.3
 tech sky130A
 style ngspice()
@@ -25,145 +25,146 @@ node "VBP_REF1N" 1 871.418 7225 -435 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "VSS" 191 10826.6 1319 -2602 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4102658 16452 3069148 18470 2287808 15746 0 0 0 0 0 0 0 0
 node "VCC" 121 14557.8 1327 483 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7850049 18474 2625264 15154 3647316 27244 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "VBN_REF1N" "VCC" 5860.52
-cap "rst_n" "VBP_REF10N" 7.84314
-cap "m1_1757_n1930#" "VCC" 870.613
-cap "VBP_REF1N" "VCC" 499.22
-cap "VSS" "VBN_REF10N" 2.0957
-cap "VBN_REF1N" "VBP_REF10N" 760.211
+cap "VBP_REF10N" "VCC" 5306.55
+cap "rst_n" "VBN_REF10N" 13.1933
+cap "VSS" "VBP_REF10N" 2577.01
 cap "m1_1757_n1930#" "VBP_REF10N" 0.570208
 cap "VSS" "VCC" 4435.79
-cap "VSS" "VBP_REF10N" 2577.01
-cap "m1_1757_n1930#" "VBN_REF1N" 521.378
-cap "VBP_REF1N" "VBN_REF1N" 102.897
-cap "VBP_REF1N" "m1_1757_n1930#" 0.15748
-cap "rst_n" "VSS" 1.98442
-cap "VSS" "VBN_REF1N" 374.876
+cap "m1_1757_n1930#" "VCC" 870.613
 cap "VSS" "m1_1757_n1930#" 1534.41
-cap "VBP_REF1N" "VSS" 17.9393
-cap "rst_n" "VBN_REF10N" 13.1933
-cap "VBP_REF10N" "VCC" 5306.55
-cap "x1/VSS" "x1/VCC" -3.55271e-15
-cap "x1/VSS" "x1/rst_n" 0.00132477
-cap "x1/VSS" "x1/VBN" -0.893504
+cap "VBN_REF1N" "VBP_REF10N" 760.211
+cap "VCC" "VBP_REF1N" 499.22
+cap "VSS" "VBN_REF10N" 2.0957
+cap "VSS" "VBP_REF1N" 17.9393
+cap "m1_1757_n1930#" "VBP_REF1N" 0.15748
+cap "VBN_REF1N" "VCC" 5860.52
+cap "rst_n" "VBP_REF10N" 7.84314
+cap "VSS" "VBN_REF1N" 374.876
+cap "VBN_REF1N" "m1_1757_n1930#" 521.378
+cap "VSS" "rst_n" 1.98442
+cap "VBN_REF1N" "VBP_REF1N" 102.897
+cap "x1/VSS" "x1/m1_925_n962#" 0.499666
+cap "x1/XM3/S" "x1/XM4/B" 0.262594
 cap "x1/VBN" "x1/VCC" 0.0104678
 cap "x1/rst_n" "x1/VBN" -6.57541
-cap "x1/VBN" "x1/VSS" 471.192
-cap "x1/VCC" "x1/VSS" 105.953
-cap "x1/XM5/S" "x1/XM4/B" 531.432
-cap "x1/XM2/G" "x1/XM4/B" 0.747526
+cap "x1/VCC" "x1/VSS" -3.55271e-15
+cap "x1/VBN" "x1/VSS" -0.893504
+cap "x1/rst_n" "x1/VSS" 0.00132477
+cap "x1/VSS" "x1/m1_925_n962#" 8.81705
+cap "x1/VSS" "x1/VBN" 471.192
+cap "x1/VSS" "x1/VCC" 119.288
+cap "x1/XM3/S" "x1/XM4/B" 8.38774
+cap "x1/XM5/S" "x1/XM4/B" 534.34
+cap "x1/XM5/B" "x1/XM4/B" 109.995
 cap "x1/XM5/G" "x1/XM4/B" 0.0069441
-cap "x1/XM3/S" "x1/XM4/B" 0.984495
-cap "x1/XM4/B" "x1/XM5/B" 98.7335
-cap "x1/XM4/B" "x1/XM3/S" -1.13687e-13
-cap "x1/XM2/D" "x1/VBP" 2.54778
+cap "x1/XM2/G" "x1/XM4/B" 0.783489
+cap "x1/XM2/D" "x1/VBP" 3.2458
 cap "x1/XM3/B" "x1/XM2/D" -2.84217e-14
-cap "x1/rst_n" "x1/VCC" 3.40745
-cap "VBP_REF10N" "x1/VCC" -0.809332
-cap "x1/VBN" "x1/VCC" 0.371401
-cap "x1/VSS" "x1/VCC" 10.9374
-cap "VBP_REF10N" "x1/rst_n" -3.92157
-cap "x1/VBN" "x1/rst_n" -6.57541
 cap "x1/VSS" "x1/rst_n" -0.735955
-cap "VBP_REF10N" "x1/VCC" 10.8309
-cap "x1/rst_n" "x1/VSS" 419.38
-cap "XM2/G0" "x1/VCC" 0.0114538
+cap "x1/VCC" "x1/VBN" 0.371401
+cap "x1/VCC" "x1/rst_n" 3.40745
+cap "x1/VCC" "x1/VSS" 10.9374
+cap "VBP_REF10N" "x1/rst_n" -3.92157
+cap "x1/VCC" "VBP_REF10N" -0.809332
+cap "x1/VBN" "x1/rst_n" -6.57541
+cap "x1/VCC" "XM2/G0" 0.0114538
+cap "x1/VSS" "x1/rst_n" 419.38
+cap "x1/VCC" "VBP_REF10N" 10.8309
+cap "x1/VCC" "x1/rst_n" 2.97497
 cap "x1/VCC" "x1/VBN" 0.600851
-cap "x1/rst_n" "x1/VCC" 2.97497
-cap "x1/VSS" "x1/VCC" 1401.51
-cap "x1/XM4/B" "x1/XM5/S" 12.3338
-cap "x1/XM4/B" "x1/XM2/G" 20.5281
-cap "x1/XM5/B" "x1/XM2/G" 2.27374e-13
-cap "VBP_REF10N" "x1/XM2/G" 0.488117
-cap "x1/XM5/G" "x1/XM4/B" 696.829
-cap "x1/XM5/B" "x1/XM4/B" 1300.54
-cap "x1/XM5/G" "VBP_REF10N" 0.639829
+cap "x1/VSS" "x1/VCC" 1420.95
+cap "x1/XM2/G" "VBP_REF10N" 0.488117
+cap "x1/XM2/G" "x1/XM4/B" 20.4922
+cap "VBP_REF10N" "x1/XM5/G" 0.639829
+cap "x1/XM4/B" "x1/XM5/G" 696.829
+cap "x1/XM5/B" "x1/XM4/B" 1321.61
+cap "x1/XM4/B" "x1/XM5/S" 9.42554
 cap "x1/XM5/B" "VBP_REF10N" 28.3379
-cap "x1/XM5/B" "x1/XM5/S" 1.38519
-cap "x1/XM5/B" "x1/VBP" 12.29
+cap "x1/XM2/G" "x1/XM5/B" 2.27374e-13
+cap "x1/XM5/S" "x1/XM5/B" 1.38519
 cap "x1/XM5/B" "x1/XM4/B" 32.6815
 cap "x1/XM5/B" "XM3/G" 0.00611434
-cap "x1/XM4/B" "x1/VBP" 0.704865
-cap "x1/XM2/D" "x1/XM3/B" 14.0781
-cap "x1/XM2/D" "x1/VBP" 98.8946
-cap "XM2/B" "XM2/D0" 3.86105
+cap "x1/VBP" "x1/XM5/B" 12.29
+cap "x1/VBP" "x1/XM4/B" 0.704865
+cap "x1/VBP" "x1/XM2/D" 100.381
+cap "x1/XM3/B" "x1/XM2/D" 14.0781
 cap "XM2/B" "x1/rst_n" -0.14549
-cap "VCC" "XM2/B" -1.35974
-cap "VBP_REF10N" "x1/VCC" 86.0605
-cap "XM2/D0" "x1/VCC" 24.2988
-cap "XM2/B" "x1/VCC" 7.96322
-cap "VBP_REF10N" "XM2/D0" 0.812344
+cap "XM2/B" "VBP_REF10N" 2.84217e-14
+cap "x1/VCC" "VBP_REF10N" 86.0605
+cap "XM2/D0" "XM2/B" 3.07011
+cap "XM2/D0" "x1/VCC" 25.1634
 cap "VBP_REF10N" "x1/rst_n" -3.92157
-cap "VBP_REF10N" "XM2/B" 5.68434e-14
-cap "x1/rst_n" "XM2/B" 9.40962e-05
-cap "XM2/D0" "XM1/G" 1.35261
-cap "XM1/B" "XM2/B" -13.7944
-cap "XM2/D0" "XM2/B" -39.1524
-cap "XM2/D0" "x1/VCC" 61.6914
-cap "XM2/B" "XM1/G" -19.1287
+cap "XM2/B" "x1/VCC" 8.30411
+cap "VCC" "XM2/B" -1.35974
+cap "XM2/D0" "VBP_REF10N" 0.889329
+cap "XM1/G" "XM2/D0" 1.35261
+cap "x1/VCC" "XM2/D0" 63.3946
 cap "x1/VCC" "XM1/G" 264.06
-cap "x1/VCC" "XM2/B" 174.705
-cap "XM3/B" "XM4/B" -8.49315
+cap "XM2/B" "x1/rst_n" 9.40962e-05
+cap "XM1/B" "XM2/B" -13.7944
+cap "XM1/G" "XM2/B" -19.1287
+cap "XM2/B" "XM2/D0" -39.1524
+cap "x1/VCC" "XM2/B" 141.934
+cap "XM3/B" "XM2/D0" -43.6053
 cap "VBP_REF10N" "XM3/B" -19.1464
+cap "XM2/D0" "x1/XM5/B" 5.67141
 cap "VBP_REF10N" "x1/XM5/B" 296.154
-cap "x1/XM5/B" "XM3/B" 151.436
-cap "XM2/D0" "VBP_REF10N" 1.46043
-cap "XM2/D0" "XM3/B" -43.6053
-cap "XM2/D0" "x1/XM5/B" 5.23359
-cap "XM3/B" "x1/XM5/B" 53.6535
-cap "XM3/G" "XM3/B" -23.8038
+cap "XM4/B" "XM3/B" -8.49315
+cap "XM3/B" "x1/XM5/B" 119.106
+cap "VBP_REF10N" "XM2/D0" 1.46043
 cap "XM3/B" "XM4/B" -13.4683
-cap "XM3/G" "x1/XM5/B" 57.6305
+cap "x1/VBP" "XM3/G" 1.34281
+cap "XM3/B" "XM3/G" -19.9556
+cap "x1/XM5/B" "XM3/G" 59.8031
 cap "x1/XM5/B" "x1/VBP" 270.331
-cap "XM3/G" "x1/VBP" 1.34281
+cap "x1/XM5/B" "XM3/B" 53.6738
+cap "XM3/B" "XM4/B" 0.400578
 cap "XM4/S" "XM3/B" -5.84338
-cap "XM3/G" "XM3/B" -14.8683
-cap "XM3/G" "x1/XM2/D" 0.299992
-cap "XM4/B" "XM3/B" 0.400578
-cap "x1/VBP" "x1/XM2/D" 148.208
+cap "XM3/G" "XM3/B" -16.8646
+cap "x1/XM2/D" "XM3/G" 0.299992
+cap "XM3/G" "x1/VBP" 0.431267
 cap "x1/XM2/D" "XM3/B" 15.4458
-cap "x1/VBP" "XM3/G" 0.431267
-cap "XM2/B" "VBP_REF10N" 7.10543e-15
-cap "XM2/D0" "XM2/B" 96.1914
-cap "XM2/D0" "VBP_REF10N" 4.29587
-cap "XM2/B" "VCC" 24.378
-cap "XM2/D0" "VCC" 215.703
-cap "XM1/B" "XM2/D0" 552.503
-cap "XM2/B" "XM1/B" 174.681
-cap "XM2/B" "XM2/D0" 369.442
-cap "XM1/B" "XM1/G" 6.58688
+cap "x1/XM2/D" "x1/VBP" 146.024
+cap "VCC" "XM2/D0" 214.838
+cap "XM2/D0" "XM2/B" 96.9823
+cap "VCC" "XM2/B" 24.0371
+cap "XM2/D0" "VBP_REF10N" 4.21889
 cap "XM2/D0" "XM1/G" -0.331766
-cap "XM3/B" "XM1/G" 0.623681
-cap "XM2/D0" "XM3/B" 375.295
+cap "XM1/B" "XM2/B" 174.681
+cap "XM2/D0" "XM1/B" 550.8
+cap "XM1/B" "XM1/G" 6.58688
+cap "XM2/D0" "XM2/B" 369.442
+cap "XM2/D0" "XM4/B" 232.766
+cap "XM1/G" "XM4/B" 86.0446
 cap "XM3/B" "XM4/B" 179.523
-cap "XM2/D0" "XM1/G" 47.743
-cap "XM2/D0" "XM4/B" 233.203
-cap "XM4/B" "XM1/G" 86.1822
-cap "XM4/B" "XM1/G" 0.767142
-cap "XM3/G" "XM3/B" 388.87
-cap "XM4/S" "XM3/G" 0.798225
-cap "XM4/B" "XM3/G" 534.705
-cap "XM4/S" "XM3/B" 2.38178
-cap "XM4/B" "XM3/B" 197.334
-cap "XM4/B" "XM4/S" -2.94179
-cap "XM3/G" "XM4/S" -0.0828617
-cap "XM4/B" "XM3/B" 58.5685
-cap "XM4/B" "XM3/G" 9.1208
-cap "XM4/B" "XM4/S" 111.115
-cap "XM3/B" "XM4/S" 61.9817
-cap "XM3/B" "XM3/G" 43.8316
-cap "XM1/B" "XM2/D0" 0.024598
+cap "XM1/G" "XM2/D0" 47.743
+cap "XM3/B" "XM2/D0" 375.295
+cap "XM3/B" "XM1/G" 0.623681
+cap "XM3/G" "XM4/B" 532.532
+cap "XM1/G" "XM4/B" 0.767142
+cap "XM3/B" "XM4/S" 2.38178
+cap "XM3/G" "XM3/B" 385.022
+cap "XM4/B" "XM3/B" 197.314
+cap "XM3/G" "XM4/S" 0.798225
+cap "XM4/B" "XM4/S" -4.2941
+cap "XM3/G" "XM4/B" 9.1208
+cap "XM3/B" "XM4/B" 58.5685
+cap "XM4/S" "XM4/B" 122.934
+cap "XM3/G" "XM3/B" 45.8279
+cap "XM3/B" "XM4/S" 62.4437
+cap "XM3/G" "XM4/S" -1.84413
 cap "XM1/B" "XM1/G" 11.8061
+cap "XM1/B" "XM2/D0" 0.024598
 cap "XM4/B" "XM2/D0" -6.84173
-cap "XM4/B" "XM1/G" 173.988
-cap "XM4/B" "XM3/G" 1.02157
+cap "XM4/B" "XM1/G" 174.126
+cap "XM3/G" "XM4/B" 1.02157
 cap "XM3/B" "XM4/B" 0.128932
-cap "XM4/B" "XM4/S" 5.41324
 cap "XM1/G" "XM4/B" 1.37478
-cap "XM4/B" "XM3/B" -0.161117
-cap "XM4/B" "XM3/G" -0.0529498
-cap "XM4/S" "XM4/B" 145.734
-merge "XM4/D" "XM1/D" -7991.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -949716 -13741 -392560 -5222 -530860 -2633 0 0 0 0 0 0 0 0
+cap "XM4/S" "XM4/B" 6.76554
+cap "XM3/G" "XM4/B" -0.0529498
+cap "XM4/S" "XM4/B" 145.744
+cap "XM3/B" "XM4/B" -0.161117
+merge "XM4/D" "XM1/D" -7990.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -949716 -13741 -392560 -5222 -526460 -2613 0 0 0 0 0 0 0 0
 merge "XM1/D" "XM4/B"
 merge "XM4/B" "XM1/B"
 merge "XM1/B" "x1/XM2/D"
@@ -193,7 +194,7 @@ merge "XM2/G3" "XM2/G2"
 merge "XM2/G2" "XM2/G1"
 merge "XM2/G1" "XM2/G0"
 merge "XM2/G0" "m1_1757_n1930#"
-merge "XM4/VSUBS" "XM1/VSUBS" -7578.68 0 0 0 0 0 0 0 0 0 0 -38080 -2308 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -235757 -16362 -201204 -6946 0 0 0 0 0 0 0 0 0 0
+merge "XM4/VSUBS" "XM1/VSUBS" -7616.8 0 0 0 0 0 0 0 0 0 0 -38080 -2308 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -235757 -16362 -201204 -6946 0 0 0 0 0 0 0 0 0 0
 merge "XM1/VSUBS" "XM2/S9"
 merge "XM2/S9" "XM2/S8"
 merge "XM2/S8" "XM3/S"
@@ -210,13 +211,12 @@ merge "XM2/S2" "XM2/S1"
 merge "XM2/S1" "XM2/S0"
 merge "XM2/S0" "XM2/B"
 merge "XM2/B" "x1/XM4/B"
-merge "x1/XM4/B" "x1/sky130_fd_pr__res_xhigh_po_0p69_MNXMFD_0/B"
-merge "x1/sky130_fd_pr__res_xhigh_po_0p69_MNXMFD_0/B" "x1/VSS"
+merge "x1/XM4/B" "x1/VSS"
 merge "x1/VSS" "VSS"
 merge "XM1/G" "x1/VBP" -3262.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -728614 -8830 -566492 -6012 0 0 0 0 0 0 0 0
 merge "x1/VBP" "VBP_REF10N"
 merge "x1/rst_n" "rst_n" -164.057 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -39600 -796 0 0 0 0 0 0 0 0 0 0
 merge "x1/VBN" "VBN_REF10N" -178.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41974 -820 0 0 0 0 0 0 0 0 0 0
-merge "XM3/D" "XM4/S" -584.226 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33240 -1989 0 0 0 0 0 0 0 0 0 0
+merge "XM3/D" "XM4/S" -583.256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33240 -1906 0 0 0 0 0 0 0 0 0 0
 merge "XM4/S" "XM4/G"
 merge "XM4/G" "VBP_REF1N"

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788808241
+timestamp 1788808479
 << locali >>
 rect 3929 2587 5274 2590
 rect 11 2543 5278 2587
@@ -57,10 +57,13 @@ rect 4666 -502 5088 94
 rect 229 -613 656 -527
 rect 226 -15364 686 -613
 rect 925 -962 5137 -502
-rect 226 -15990 1495 -15364
-use sky130_fd_pr__res_xhigh_po_1p41_2UGHJN  sky130_fd_pr__res_xhigh_po_1p41_2UGHJN_0
-timestamp 1788808241
-transform 0 1 12111 -1 0 -8146
+rect 226 -31785 732 -15364
+rect 1099 -17096 1559 -962
+rect 1099 -17556 1921 -17096
+rect 226 -32291 1799 -31785
+use sky130_fd_pr__res_xhigh_po_1p41_945AHJ  sky130_fd_pr__res_xhigh_po_1p41_945AHJ_0
+timestamp 1788808479
+transform 0 1 12380 -1 0 -24699
 box -7678 -11234 7678 11234
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM1
 timestamp 1788765446

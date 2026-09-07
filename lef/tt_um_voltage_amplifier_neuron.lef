@@ -35,8 +35,7 @@ MACRO tt_um_voltage_amplifier_neuron
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 52.000000 ;
-    ANTENNADIFFAREA 244.360794 ;
+    ANTENNADIFFAREA 17.400000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -441,11 +440,11 @@ MACRO tt_um_voltage_amplifier_neuron
   END VGND
   OBS
       LAYER nwell ;
-        RECT 19.915 94.790 135.200 204.775 ;
+        RECT 19.915 12.025 136.545 204.775 ;
       LAYER li1 ;
-        RECT 18.305 94.970 135.020 207.260 ;
+        RECT 18.305 12.855 112.860 207.260 ;
       LAYER met1 ;
-        RECT 0.970 83.610 141.380 221.860 ;
+        RECT 0.970 12.455 141.380 221.860 ;
       LAYER met2 ;
         RECT 1.110 101.710 141.330 221.870 ;
       LAYER met3 ;
