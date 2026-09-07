@@ -1,0 +1,23 @@
+* NGSPICE file created from ota.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_FGWQMQ B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_7M33HH B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_XETRKN B D0 S0 G0 D1 S1 G1
+X0 S0 G0 D0 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+X1 S1 G1 D1 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt ota VCC OUT VSS BIAS + -
+XXM1 VSS XM4/G XM2/S + sky130_fd_pr__nfet_01v8_FGWQMQ
+XXM2 VSS OUT XM2/S - sky130_fd_pr__nfet_01v8_FGWQMQ
+XXM3 VCC VCC XM4/G XM4/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
+XXM4 VCC VCC OUT XM4/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
+XXM5 VSS XM2/S VSS BIAS XM2/S VSS BIAS sky130_fd_pr__nfet_01v8_XETRKN
+.ends
+

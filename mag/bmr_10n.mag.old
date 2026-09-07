@@ -1,0 +1,95 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1788753507
+<< checkpaint >>
+rect 4442 -3125 6963 -604
+<< error_s >>
+rect 1068 -1085 1103 -1051
+rect 2261 -1068 2295 -1050
+rect 1069 -1104 1103 -1085
+rect 1088 -1617 1103 -1104
+rect 1122 -1138 1157 -1104
+rect 1122 -1617 1156 -1138
+rect 1122 -1651 1137 -1617
+rect 2225 -1670 2295 -1068
+rect 3347 -1228 3381 -1174
+rect 4504 -1228 4556 -1227
+rect 2225 -1706 2278 -1670
+rect 3366 -1723 3381 -1228
+rect 3400 -1262 3435 -1228
+rect 3400 -1723 3434 -1262
+rect 4486 -1263 4556 -1228
+rect 3400 -1757 3415 -1723
+rect 4504 -1776 4574 -1263
+rect 4504 -1812 4556 -1776
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+use sky130_fd_pr__pfet_01v8_8SGQ8J  XM1
+timestamp 0
+transform 1 0 543 0 1 -1334
+box -596 -319 596 319
+use sky130_fd_pr__pfet_01v8_8SGQ8J  XM2
+timestamp 0
+transform 1 0 1682 0 1 -1387
+box -596 -319 596 319
+use sky130_fd_pr__nfet_01v8_XV5MNW  XM3
+timestamp 0
+transform 1 0 2821 0 1 -749
+box -596 -1010 596 1010
+use sky130_fd_pr__nfet_01v8_PCYQPL  XM4
+timestamp 0
+transform 1 0 3960 0 1 -1502
+box -596 -310 596 310
+use sky130_fd_pr__pfet_01v8_8SGQ8J  XM5
+timestamp 0
+transform 1 0 5100 0 1 -1546
+box -596 -319 596 319
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR1
+timestamp 0
+transform 1 0 4556 0 1 -1812
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR2
+timestamp 0
+transform 1 0 5696 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR3
+timestamp 0
+transform 1 0 5697 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR4
+timestamp 0
+transform 1 0 5698 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR5
+timestamp 0
+transform 1 0 5699 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR6
+timestamp 0
+transform 1 0 5700 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR7
+timestamp 0
+transform 1 0 5701 0 1 -1865
+box 0 0 1 1
+use sky130_fd_pr__res_xhigh_po_0p35_EP7MZD  XR8
+timestamp 0
+transform 1 0 5702 0 1 -1865
+box 0 0 1 1
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 1600 0 0 0 VCC
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 1600 0 0 0 VBP
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 1600 0 0 0 VSS
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 1600 0 0 0 VBN
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 1600 0 0 0 rst_n
+port 4 nsew
+<< end >>

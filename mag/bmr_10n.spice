@@ -1,0 +1,34 @@
+* NGSPICE file created from bmr_10n.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_872VHY B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=135.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_8SGQ8J B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_XV5MNW B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_PCYQPL B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bmr_10n VCC VBP VSS VBN rst_n
+XXR1 VSS XR2/R1 XM3/S sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR2 VSS XR2/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR3 VSS XR4/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR4 VSS XR4/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR5 VSS XR6/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR6 VSS XR6/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM1 VCC VCC VBP VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXR7 VSS XR8/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM2 VCC VCC VBN VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM3 VSS VBP XM3/S VBN sky130_fd_pr__nfet_01v8_XV5MNW
+XXR8 VSS XR8/R1 VSS sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM4 VSS VBN VSS VBN sky130_fd_pr__nfet_01v8_PCYQPL
+XXM5 VCC VCC VBN rst_n sky130_fd_pr__pfet_01v8_8SGQ8J
+.ends
+

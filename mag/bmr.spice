@@ -1,0 +1,58 @@
+* NGSPICE file created from bmr.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_872VHY B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=135.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_8SGQ8J B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_XV5MNW B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_PCYQPL B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bmr_10n VCC VBP VBN rst_n VSS
+XXR1 VSS XR2/R1 XM3/S sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR2 VSS XR2/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR3 VSS XR4/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR4 VSS XR4/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR5 VSS XR6/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXR6 VSS XR6/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM1 VCC VCC VBP VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXR7 VSS XR8/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM2 VCC VCC VBN VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM3 VSS VBP XM3/S VBN sky130_fd_pr__nfet_01v8_XV5MNW
+XXR8 VSS XR8/R1 VSS sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM4 VSS VBN VSS VBN sky130_fd_pr__nfet_01v8_PCYQPL
+XXM5 VCC VCC VBN rst_n sky130_fd_pr__pfet_01v8_8SGQ8J
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_YM6BDQ B D0 S0 G0 D1 S1 G1 D2 S2 G2 D3 S3 G3 D4 S4
++ G4 D5 S5 G5 D6 S6 G6 D7 S7 G7 D8 S8 G8 D9 S9 G9
+X0 S8 G8 D8 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X1 S0 G0 D0 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X2 S7 G7 D7 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X3 S5 G5 D5 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X4 S2 G2 D2 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X5 S3 G3 D3 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X6 S9 G9 D9 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X7 S1 G1 D1 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X8 S6 G6 D6 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X9 S4 G4 D4 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt bmr VCC VBP_REF10N VSS VBP_REF1N VBN_REF10N VBN_REF1N rst_n
+Xx1 VCC VBP_REF10N VBN_REF10N rst_n VSS bmr_10n
+XXM1 VCC VCC VBN_REF1N VBP_REF10N sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM2 VSS VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N
++ VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N
++ VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N sky130_fd_pr__nfet_01v8_YM6BDQ
+XXM3 VSS VBP_REF1N VSS VBN_REF1N sky130_fd_pr__nfet_01v8_PCYQPL
+XXM4 VCC VCC VBP_REF1N VBP_REF1N sky130_fd_pr__pfet_01v8_8SGQ8J
+.ends
+

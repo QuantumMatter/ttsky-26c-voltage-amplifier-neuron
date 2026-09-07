@@ -1,0 +1,36 @@
+* NGSPICE file created from input_current_bank.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_CQGWXL B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=8
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_Y5YEVR B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_8SGQ8J B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_5ZWTQG B D0 S0 G0 D1 S1 G1
+X0 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X1 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_E3M74M B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=16
+.ends
+
+.subckt input_current_bank VCC V_STIM VBP_REF1N IN1 IN2 IN3 IN4 IN5
+XXM14 VCC VCC XM15/D VBP_REF1N sky130_fd_pr__pfet_01v8_CQGWXL
+XXM13 VCC XM13/D V_STIM IN1 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+XXM15 VCC XM15/D V_STIM IN2 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+XXM16 VCC VCC XM17/D VBP_REF1N sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM17 VCC XM17/D V_STIM IN3 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+XXM18 VCC VCC XM19/D VBP_REF1N sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM19 VCC XM19/D V_STIM IN4 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+XXM20 VCC VCC XM21/D VBP_REF1N VCC XM21/D VBP_REF1N sky130_fd_pr__pfet_01v8_5ZWTQG
+XX0.5 VCC VCC XM13/D VBP_REF1N sky130_fd_pr__pfet_01v8_E3M74M
+XXM21 VCC XM21/D V_STIM IN5 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+.ends
+
