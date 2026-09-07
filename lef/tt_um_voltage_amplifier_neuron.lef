@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO all
+MACRO tt_um_voltage_amplifier_neuron
   CLASS BLOCK ;
-  FOREIGN all ;
+  FOREIGN tt_um_voltage_amplifier_neuron ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -431,19 +431,6 @@ MACRO all
         RECT 4.000 5.000 6.000 220.760 ;
     END
   END VGND
-  OBS
-      LAYER met4 ;
-        RECT 6.400 4.600 152.710 6.100 ;
-        RECT 3.960 1.400 152.710 4.600 ;
-        RECT 3.960 1.000 16.170 1.400 ;
-        RECT 17.870 1.000 35.490 1.400 ;
-        RECT 37.190 1.000 54.810 1.400 ;
-        RECT 56.510 1.000 74.130 1.400 ;
-        RECT 75.830 1.000 93.450 1.400 ;
-        RECT 95.150 1.000 112.770 1.400 ;
-        RECT 114.470 1.000 132.090 1.400 ;
-        RECT 133.790 1.000 151.410 1.400 ;
-  END
-END all
+END tt_um_voltage_amplifier_neuron
 END LIBRARY
 
