@@ -153,7 +153,7 @@ N 580 140 580 160 {lab=VSS}
 N 520 160 580 160 {lab=VSS}
 C {ota/ota.sym} -140 -60 0 0 {name=x1}
 C {inv/inv.sym} 140 0 0 0 {name=x2}
-C {sky130_fd_pr/cap_mim_m3_1.sym} -740 110 0 0 {name=C1 model=cap_mim_m3_1 W=22.63 L=22.63 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -740 110 2 0 {name=C1 model=cap_mim_m3_1 W=22.63 L=22.63 MF=1 spiceprefix=X}
 C {lab_pin.sym} -300 20 0 0 {name=p1 sig_type=std_logic lab=VBN_REF10N}
 C {lab_pin.sym} -300 0 0 0 {name=p2 sig_type=std_logic lab=V_THRES}
 C {sky130_fd_pr/nfet_01v8.sym} -460 120 0 1 {name=M1
@@ -210,7 +210,7 @@ C {lab_pin.sym} 240 -240 0 0 {name=p14 sig_type=std_logic lab=VBP_REF1N}
 C {lab_pin.sym} 240 240 0 0 {name=p15 sig_type=std_logic lab=VBN_REF1N}
 C {lab_pin.sym} -1320 -340 0 0 {name=p19 sig_type=std_logic lab=VCC}
 C {lab_pin.sym} -520 -160 0 0 {name=p21 sig_type=std_logic lab=VCC}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 520 110 0 0 {name=C2 model=cap_mim_m3_1 W=24.75 L=24.75 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 520 110 2 0 {name=C2 model=cap_mim_m3_1 W=24.75 L=24.75 MF=1 spiceprefix=X}
 C {ammeter.sym} -480 -70 0 0 {name=VSNA savecurrent=true spice_ignore=0}
 C {ammeter.sym} 320 -150 0 0 {name=VSKUP savecurrent=true spice_ignore=0}
 C {ammeter.sym} -480 30 2 0 {name=VSK savecurrent=true spice_ignore=0}
@@ -380,5 +380,5 @@ C {lab_pin.sym} -680 520 0 0 {name=p61 sig_type=std_logic lab=IN3}
 C {lab_pin.sym} -680 540 0 0 {name=p62 sig_type=std_logic lab=IN4}
 C {lab_pin.sym} -680 560 0 0 {name=p63 sig_type=std_logic lab=IN5}
 C {lab_pin.sym} -680 580 0 0 {name=p64 sig_type=std_logic lab=V_STIM}
-C {sky130_fd_pr/cap_mim_m3_1.sym} -670 110 0 0 {name=C3 model=cap_mim_m3_1 W=22.63 L=22.63 MF=1 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 580 110 0 0 {name=C4 model=cap_mim_m3_1 W=24.75 L=24.75 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -670 110 2 0 {name=C3 model=cap_mim_m3_1 W=22.63 L=22.63 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 580 110 2 0 {name=C4 model=cap_mim_m3_1 W=24.75 L=24.75 MF=1 spiceprefix=X}

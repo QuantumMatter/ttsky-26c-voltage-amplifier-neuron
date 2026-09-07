@@ -1,11 +1,11 @@
 ** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/vamp_if_neuron.sch
 .subckt vamp_if_neuron VCC V_MEM_BUF VSS rst_n IN1 IN2 IN3 IN4 IN5
 *.PININFO VCC:B VSS:B rst_n:I V_MEM_BUF:O IN1:I IN2:I IN3:I IN4:I IN5:I
-XC1 V_MEM VSS sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
+XC1 VSS V_MEM sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
 XM1 net5 V_inv2 VK_SRC VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1
 XM5 V_inv2 V_inv1 VNET_KDOWN_SRC VSS sky130_fd_pr__nfet_01v8 L=0.5 W=1 nf=1
 XM6 V_inv2 V_inv1 net3 VCC sky130_fd_pr__pfet_01v8_lvt L=0.5 W=2 nf=1
-XC2 V_inv2 VSS sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
+XC2 VSS V_inv2 sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
 VSNA net6 V_MEM 0
 .save i(vsna)
 VSKUP net4 net3 0
@@ -30,8 +30,7 @@ VSLK net8 V_MEM 0
 .save i(vslk)
 XR3 V_THRES VCC VSS sky130_fd_pr__res_xhigh_po_0p35 L=10 mult=1
 XR4 VSS V_THRES VSS sky130_fd_pr__res_xhigh_po_0p35 L=6.36 mult=1
-XC3 V_MEM VSS sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
-XC4 V_inv2 VSS sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
+XC3 VSS V_MEM sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
+XC4 VSS V_inv2 sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
 .ends
-
 

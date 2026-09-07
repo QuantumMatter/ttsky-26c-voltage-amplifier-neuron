@@ -1,0 +1,83 @@
+* NGSPICE file created from vamp_if_neuron.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_TR4WTB B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=10
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_JXEFPG B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=6.36
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_PCYQPL B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_WZVWL4 B D0 S0 G0 D1 S1 G1 D2 S2 G2 D3 S3 G3
+X0 S2 G2 D2 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X1 S0 G0 D0 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X2 S3 G3 D3 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+X3 S1 G1 D1 B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_BVB23V B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_Y5YEVR B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_FGWQMQ B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_7M33HH B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_8SGQ8J B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GCEZRS B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=11.6 pd=80.58 as=11.6 ps=80.58 w=40 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_9ZQHCF B D0 S0 G0 D1 S1 G1
+X0 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
+X1 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_4SQMGA C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=22.63 w=22.63
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_3EYAHJ C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=24.75 w=24.75
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_8LLZS6 B D0 S0 G0 D1 S1 G1
+X0 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=0.75
+X1 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=0.75
+.ends
+
+.subckt vamp_if_neuron VCC V_MEM_BUF VSS rst_n IN1 IN2 IN3 IN4 IN5
+XXR3 VSS XR4/R1 VCC sky130_fd_pr__res_xhigh_po_0p35_TR4WTB
+XXR4 VSS XR4/R1 VSS sky130_fd_pr__res_xhigh_po_0p35_JXEFPG
+XXM1 VSS XM9/G XM1/S XM6/S sky130_fd_pr__nfet_01v8_PCYQPL
+XXM2 VSS XM1/S VSS XM2/G3 XM1/S VSS XM2/G3 XM1/S VSS XM2/G3 XM1/S VSS XM2/G3 sky130_fd_pr__nfet_01v8_WZVWL4
+XXM3 VSS XM5/S VSS XM3/G sky130_fd_pr__nfet_01v8_BVB23V
+XXM4 VCC XM7/S XM9/G XM6/G sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
+XXM5 VSS XM6/S XM5/S XM6/G sky130_fd_pr__nfet_01v8_FGWQMQ
+XXM6 VCC XM6/D XM6/S XM6/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
+XXM7 VCC VCC XM7/S XM7/G sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM9 VCC V_MEM_BUF VSS XM9/G sky130_fd_pr__pfet_01v8_lvt_GCEZRS
+XXM8 VCC VCC XM6/D XM8/G1 VCC XM6/D XM8/G1 sky130_fd_pr__pfet_01v8_9ZQHCF
+XXC1 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA
+XXC2 XM6/S VSS sky130_fd_pr__cap_mim_m3_1_3EYAHJ
+XXC3 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA
+XXC4 XM6/S VSS sky130_fd_pr__cap_mim_m3_1_3EYAHJ
+XXM10 VCC V_MEM_BUF VCC XM7/G V_MEM_BUF VCC XM7/G sky130_fd_pr__pfet_01v8_8LLZS6
+XXM11 VSS XM9/G VSS XM3/G sky130_fd_pr__nfet_01v8_PCYQPL
+.ends
+

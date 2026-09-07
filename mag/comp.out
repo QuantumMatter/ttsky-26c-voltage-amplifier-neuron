@@ -1,10 +1,24 @@
 
-Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
 
 Subcircuit pins:
-Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
 -------------------------------------------|-------------------------------------------
 1                                          |1                                          
 2                                          |2                                          
@@ -12,7 +26,7 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 4                                          |4                                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
 
 Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
@@ -28,39 +42,126 @@ Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_l
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_CQGWXL in circuit input_current_bank (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Y5YEVR in circuit input_current_bank (0)(5 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8SGQ8J in circuit input_current_bank (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_5ZWTQG in circuit input_current_bank (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E3M74M in circuit input_current_bank (0)(1 instance)
 
-Class input_current_bank (0):  Merged 1 parallel devices.
-Subcircuit summary:
-Circuit 1: input_current_bank              |Circuit 2: input_current_bank              
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (6->5)             |sky130_fd_pr__pfet_01v8 (6->5)             
-sky130_fd_pr__pfet_01v8_lvt (5)            |sky130_fd_pr__pfet_01v8_lvt (5)            
-Number of devices: 10                      |Number of devices: 10                      
-Number of nets: 13                         |Number of nets: 13                         
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
 ---------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_TR4WTB in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_JXEFPG in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PCYQPL in circuit vamp_if_neuron (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_WZVWL4 in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_BVB23V in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Y5YEVR in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_FGWQMQ in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_7M33HH in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8SGQ8J in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_GCEZRS in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_9ZQHCF in circuit vamp_if_neuron (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_4SQMGA in circuit vamp_if_neuron (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_3EYAHJ in circuit vamp_if_neuron (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8LLZS6 in circuit vamp_if_neuron (0)(1 instance)
+
+Cell vamp_if_neuron (0) disconnected node: rst_n
+Cell vamp_if_neuron (0) disconnected node: IN1
+Cell vamp_if_neuron (0) disconnected node: IN2
+Cell vamp_if_neuron (0) disconnected node: IN3
+Cell vamp_if_neuron (0) disconnected node: IN4
+Cell vamp_if_neuron (0) disconnected node: IN5
+Cell vamp_if_neuron (1) disconnected node: rst_n
+Cell vamp_if_neuron (1) disconnected node: IN1
+Cell vamp_if_neuron (1) disconnected node: IN2
+Cell vamp_if_neuron (1) disconnected node: IN3
+Cell vamp_if_neuron (1) disconnected node: IN4
+Cell vamp_if_neuron (1) disconnected node: IN5
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Removing zero-valued device vsrc from cell vamp_if_neuron (1) makes a better match
+Making another compare attempt.
+
+Cell vamp_if_neuron (0) disconnected node: rst_n
+Cell vamp_if_neuron (0) disconnected node: IN1
+Cell vamp_if_neuron (0) disconnected node: IN2
+Cell vamp_if_neuron (0) disconnected node: IN3
+Cell vamp_if_neuron (0) disconnected node: IN4
+Cell vamp_if_neuron (0) disconnected node: IN5
+Cell vamp_if_neuron (1) disconnected node: rst_n
+Cell vamp_if_neuron (1) disconnected node: IN1
+Cell vamp_if_neuron (1) disconnected node: IN2
+Cell vamp_if_neuron (1) disconnected node: IN3
+Cell vamp_if_neuron (1) disconnected node: IN4
+Cell vamp_if_neuron (1) disconnected node: IN5
+Class vamp_if_neuron (0):  Merged 7 parallel devices.
+Class vamp_if_neuron (0):  Merged 1 series devices.
+Class vamp_if_neuron (1):  Merged 2 parallel devices.
+Class vamp_if_neuron (1):  Merged 1 series devices.
+Cell vamp_if_neuron (0) disconnected node: rst_n
+Cell vamp_if_neuron (0) disconnected node: IN1
+Cell vamp_if_neuron (0) disconnected node: IN2
+Cell vamp_if_neuron (0) disconnected node: IN3
+Cell vamp_if_neuron (0) disconnected node: IN4
+Cell vamp_if_neuron (0) disconnected node: IN5
+Cell vamp_if_neuron (1) disconnected node: rst_n
+Cell vamp_if_neuron (1) disconnected node: IN1
+Cell vamp_if_neuron (1) disconnected node: IN2
+Cell vamp_if_neuron (1) disconnected node: IN3
+Cell vamp_if_neuron (1) disconnected node: IN4
+Cell vamp_if_neuron (1) disconnected node: IN5
+Subcircuit summary:
+Circuit 1: vamp_if_neuron                  |Circuit 2: vamp_if_neuron                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p35 (2->1)     |sky130_fd_pr__res_xhigh_po_0p35 (2->1)     
+sky130_fd_pr__nfet_01v8 (8->5)             |sky130_fd_pr__nfet_01v8 (8->5)             
+sky130_fd_pr__pfet_01v8_lvt (3)            |sky130_fd_pr__pfet_01v8_lvt (3)            
+sky130_fd_pr__pfet_01v8 (5->3)             |sky130_fd_pr__pfet_01v8 (5->3)             
+sky130_fd_pr__cap_mim_m3_1 (4->2)          |sky130_fd_pr__cap_mim_m3_1 (4->2)          
+Number of devices: 14                      |Number of devices: 14                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: input_current_bank              |Circuit 2: input_current_bank              
+Circuit 1: vamp_if_neuron                  |Circuit 2: vamp_if_neuron                  
 -------------------------------------------|-------------------------------------------
-IN5                                        |IN5                                        
-IN4                                        |IN4                                        
-IN3                                        |IN3                                        
-IN2                                        |IN2                                        
-IN1                                        |IN1                                        
-VBP_REF1N                                  |VBP_REF1N                                  
-V_STIM                                     |V_STIM                                     
+V_MEM_BUF                                  |V_MEM_BUF                                  
 VCC                                        |VCC                                        
+VSS                                        |VSS                                        
+rst_n                                      |rst_n                                      
+IN1                                        |IN1                                        
+IN2                                        |IN2                                        
+IN3                                        |IN3                                        
+IN4                                        |IN4                                        
+IN5                                        |IN5                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes input_current_bank and input_current_bank are equivalent.
+Device classes vamp_if_neuron and vamp_if_neuron are equivalent.
 
 Final result: Circuits match uniquely.
 .
