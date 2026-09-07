@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788804191
+timestamp 1788807709
 << pwell >>
 rect 5221 -1318 5323 -1114
 << locali >>
@@ -159,9 +159,9 @@ rect 3339 -5767 3657 -5757
 rect 3339 -5947 3345 -5767
 rect 3339 -5957 3657 -5947
 use bmr_10n  x1
-timestamp 1788804191
+timestamp 1788807709
 transform 1 0 1345 0 1 -5838
-box -26 -28598 5904 2641
+box -26 -22597 5904 2641
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM1
 timestamp 1788765446
 transform 0 1 3866 -1 0 -281
