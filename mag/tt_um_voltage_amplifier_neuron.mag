@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788765271
+timestamp 1788765446
 << error_p >>
 rect 14911 6021 15639 6055
 << metal4 >>
@@ -61,23 +61,23 @@ rect 22634 0 22814 200
 rect 26498 0 26678 200
 rect 30362 0 30542 1818
 use bmr  bmr_0
-timestamp 1788761473
+timestamp 1788765446
 transform 1 0 2350 0 1 40620
 box 419 -34551 7425 832
 use input_current_bank  input_current_bank_0
-timestamp 1788761146
+timestamp 1788765446
 transform 1 0 17672 0 1 42948
 box 1504 -3646 11754 522
 use inv  inv_0
-timestamp 1788761146
+timestamp 1788765446
 transform 0 1 16801 -1 0 22544
 box -4 -1208 1700 204
 use ota  ota_0
-timestamp 1788761146
+timestamp 1788765446
 transform 0 1 16794 -1 0 26485
 box 1192 -1354 3600 272
 use vamp_if_neuron  vamp_if_neuron_0
-timestamp 1788765271
+timestamp 1788765446
 transform 0 1 4831 -1 0 51793
 box 11176 5483 45834 18866
 << labels >>

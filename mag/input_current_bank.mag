@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788753189
+timestamp 1788765446
 << locali >>
 rect 1504 424 11754 522
 rect 1504 300 1578 424
@@ -203,43 +203,43 @@ rect 10398 -3620 10564 -3610
 rect 8950 -3634 9116 -3624
 rect 6320 -3646 6486 -3636
 use sky130_fd_pr__pfet_01v8_E3M74M  X0.5
-timestamp 0
+timestamp 1788761146
 transform 1 0 5052 0 1 -899
 box -1796 -269 1796 269
 use sky130_fd_pr__pfet_01v8_lvt_Y5YEVR  XM13
-timestamp 0
+timestamp 1788765446
 transform 0 1 6429 -1 0 -2060
 box -596 -419 596 419
 use sky130_fd_pr__pfet_01v8_CQGWXL  XM14
-timestamp 0
+timestamp 1788761146
 transform 1 0 7738 0 1 -899
 box -996 -269 996 269
 use sky130_fd_pr__pfet_01v8_lvt_Y5YEVR  XM15
-timestamp 0
+timestamp 1788765446
 transform 0 1 9015 -1 0 -2028
 box -596 -419 596 419
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM16
-timestamp 0
+timestamp 1788765446
 transform 0 1 9313 -1 0 -550
 box -596 -319 596 319
 use sky130_fd_pr__pfet_01v8_lvt_Y5YEVR  XM17
-timestamp 0
+timestamp 1788765446
 transform 0 1 9747 -1 0 -2028
 box -596 -419 596 419
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM18
-timestamp 0
+timestamp 1788765446
 transform 0 1 9845 -1 0 -550
 box -596 -319 596 319
 use sky130_fd_pr__pfet_01v8_lvt_Y5YEVR  XM19
-timestamp 0
+timestamp 1788765446
 transform 0 1 10479 -1 0 -2028
 box -596 -419 596 419
 use sky130_fd_pr__pfet_01v8_5ZWTQG  XM20
-timestamp 0
+timestamp 1788761146
 transform 0 1 10595 -1 0 -550
 box -596 -537 596 537
 use sky130_fd_pr__pfet_01v8_lvt_Y5YEVR  XM21
-timestamp 0
+timestamp 1788765446
 transform 0 1 11211 -1 0 -2028
 box -596 -419 596 419
 << labels >>

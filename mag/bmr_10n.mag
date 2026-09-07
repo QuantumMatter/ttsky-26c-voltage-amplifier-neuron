@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788757719
+timestamp 1788765446
 << pwell >>
 rect 2651 -951 3130 -469
 rect 3251 -951 3730 -469
@@ -68,55 +68,55 @@ rect 2956 -28461 3435 -27979
 rect 3547 -28461 4026 -27979
 rect 4138 -28461 4617 -27979
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM1
-timestamp 0
+timestamp 1788765446
 transform 0 1 3655 -1 0 1672
 box -596 -319 596 319
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM2
-timestamp 0
+timestamp 1788765446
 transform 0 1 3123 -1 0 1672
 box -596 -319 596 319
 use sky130_fd_pr__nfet_01v8_XV5MNW  XM3
-timestamp 0
+timestamp 1788761146
 transform 0 1 4332 -1 0 479
 box -596 -1010 596 1010
 use sky130_fd_pr__nfet_01v8_PCYQPL  XM4
-timestamp 0
+timestamp 1788765446
 transform 0 1 3118 -1 0 479
 box -596 -310 596 310
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM5
-timestamp 0
+timestamp 1788765446
 transform 0 1 2491 -1 0 1672
 box -596 -319 596 319
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR1
-timestamp 0
+timestamp 1788761146
 transform -1 0 4523 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR2
-timestamp 0
+timestamp 1788761146
 transform -1 0 4227 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR3
-timestamp 0
+timestamp 1788761146
 transform -1 0 3931 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR4
-timestamp 0
+timestamp 1788761146
 transform -1 0 3635 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR5
-timestamp 0
+timestamp 1788761146
 transform -1 0 3339 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR6
-timestamp 0
+timestamp 1788761146
 transform -1 0 3043 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR7
-timestamp 0
+timestamp 1788761146
 transform -1 0 2747 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR8
-timestamp 0
+timestamp 1788761146
 transform -1 0 2451 0 -1 -14459
 box -201 -14132 201 14132
 << labels >>
