@@ -431,6 +431,19 @@ MACRO tt_um_voltage_amplifier_neuron
         RECT 4.000 5.000 6.000 220.760 ;
     END
   END VGND
+  OBS
+      LAYER met4 ;
+        RECT 6.400 4.600 152.710 9.990 ;
+        RECT 6.000 1.400 152.710 4.600 ;
+        RECT 6.000 1.000 16.170 1.400 ;
+        RECT 17.870 1.000 35.490 1.400 ;
+        RECT 37.190 1.000 54.810 1.400 ;
+        RECT 56.510 1.000 74.130 1.400 ;
+        RECT 75.830 1.000 93.450 1.400 ;
+        RECT 95.150 1.000 112.770 1.400 ;
+        RECT 114.470 1.000 132.090 1.400 ;
+        RECT 133.790 1.000 151.410 1.400 ;
+  END
 END tt_um_voltage_amplifier_neuron
 END LIBRARY
 
