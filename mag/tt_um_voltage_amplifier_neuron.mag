@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788765446
-<< error_p >>
-rect 14911 6021 15639 6055
+timestamp 1788788348
 << metal4 >>
 rect 6134 44952 6194 45152
 rect 6686 44952 6746 45152
@@ -65,21 +63,21 @@ timestamp 1788765446
 transform 1 0 2350 0 1 40620
 box 419 -34551 7425 832
 use input_current_bank  input_current_bank_0
-timestamp 1788765446
-transform 1 0 17672 0 1 42948
-box 1504 -3646 11754 522
+timestamp 1788787751
+transform 0 1 19324 -1 0 42690
+box 1504 -3054 11754 1214
 use inv  inv_0
 timestamp 1788765446
-transform 0 1 16801 -1 0 22544
+transform 0 1 19497 -1 0 29066
 box -4 -1208 1700 204
 use ota  ota_0
 timestamp 1788765446
-transform 0 1 16794 -1 0 26485
+transform 1 0 15440 0 1 30452
 box 1192 -1354 3600 272
 use vamp_if_neuron  vamp_if_neuron_0
-timestamp 1788765446
-transform 0 1 4831 -1 0 51793
-box 11176 5483 45834 18866
+timestamp 1788788348
+transform 1 0 -5234 0 1 15670
+box 11176 6376 29456 19676
 << labels >>
 flabel metal4 s 28766 44952 28826 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input

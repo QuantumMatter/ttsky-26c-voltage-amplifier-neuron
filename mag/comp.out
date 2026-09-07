@@ -1,18 +1,4 @@
 
-Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
-
 Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
@@ -28,12 +14,12 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
 
-Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
 
 Subcircuit pins:
-Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
 -------------------------------------------|-------------------------------------------
 1                                          |1                                          
 2                                          |2                                          
@@ -41,73 +27,40 @@ Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8
 4                                          |4                                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_872VHY in circuit bmr_10n (0)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8SGQ8J in circuit bmr_10n (0)(3 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XV5MNW in circuit bmr_10n (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PCYQPL in circuit bmr_10n (0)(1 instance)
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_CQGWXL in circuit input_current_bank (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Y5YEVR in circuit input_current_bank (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8SGQ8J in circuit input_current_bank (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_5ZWTQG in circuit input_current_bank (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E3M74M in circuit input_current_bank (0)(1 instance)
 
-Removing zero-valued device vsrc from cell bmr_10n (1) makes a better match
-Removing zero-valued device vsrc from cell bmr_10n (1) makes a better match
-Making another compare attempt.
-
-Class bmr_10n (0):  Merged 7 series devices.
-Class bmr_10n (1):  Merged 7 series devices.
+Class input_current_bank (0):  Merged 1 parallel devices.
 Subcircuit summary:
-Circuit 1: bmr_10n                         |Circuit 2: bmr_10n                         
+Circuit 1: input_current_bank              |Circuit 2: input_current_bank              
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__res_xhigh_po_0p35 (8->1)     |sky130_fd_pr__res_xhigh_po_0p35 (8->1)     
-sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
-sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
-Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 6                          |Number of nets: 6                          
+sky130_fd_pr__pfet_01v8 (6->5)             |sky130_fd_pr__pfet_01v8 (6->5)             
+sky130_fd_pr__pfet_01v8_lvt (5)            |sky130_fd_pr__pfet_01v8_lvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
 ---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: bmr_10n                         |Circuit 2: bmr_10n                         
+Circuit 1: input_current_bank              |Circuit 2: input_current_bank              
 -------------------------------------------|-------------------------------------------
-rst_n                                      |rst_n                                      
-VBP                                        |VBP                                        
-VCC                                        |VCC                                        
-VBN                                        |VBN                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes bmr_10n and bmr_10n are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8SGQ8J in circuit bmr (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_YM6BDQ in circuit bmr (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PCYQPL in circuit bmr (0)(1 instance)
-
-Removing zero-valued device vsrc from cell bmr (1) makes a better match
-Removing zero-valued device vsrc from cell bmr (1) makes a better match
-Making another compare attempt.
-
-Class bmr (0):  Merged 9 parallel devices.
-Subcircuit summary:
-Circuit 1: bmr                             |Circuit 2: bmr                             
--------------------------------------------|-------------------------------------------
-bmr_10n (1)                                |bmr_10n (1)                                
-sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
-sky130_fd_pr__nfet_01v8 (11->2)            |sky130_fd_pr__nfet_01v8 (11->2)            
-Number of devices: 5                       |Number of devices: 5                       
-Number of nets: 7                          |Number of nets: 7                          
----------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: bmr                             |Circuit 2: bmr                             
--------------------------------------------|-------------------------------------------
+IN5                                        |IN5                                        
+IN4                                        |IN4                                        
+IN3                                        |IN3                                        
+IN2                                        |IN2                                        
+IN1                                        |IN1                                        
 VBP_REF1N                                  |VBP_REF1N                                  
-VBN_REF1N                                  |VBN_REF1N                                  
-VBN_REF10N                                 |VBN_REF10N                                 
-rst_n                                      |rst_n                                      
-VBP_REF10N                                 |VBP_REF10N                                 
+V_STIM                                     |V_STIM                                     
 VCC                                        |VCC                                        
-VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes bmr and bmr are equivalent.
+Device classes input_current_bank and input_current_bank are equivalent.
 
 Final result: Circuits match uniquely.
 .
