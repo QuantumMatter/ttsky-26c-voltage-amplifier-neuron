@@ -39,13 +39,13 @@ X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
 .ends
 
-.subckt sky130_fd_pr__pfet_01v8_lvt_GCEZRS B D S G
-X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=11.6 pd=80.58 as=11.6 ps=80.58 w=40 l=0.5
-.ends
-
 .subckt sky130_fd_pr__pfet_01v8_9ZQHCF B D0 S0 G0 D1 S1 G1
 X0 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
 X1 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GCEZRS B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=11.6 pd=80.58 as=11.6 ps=80.58 w=40 l=0.5
 .ends
 
 .subckt sky130_fd_pr__cap_mim_m3_1_4SQMGA C2 C1
@@ -71,8 +71,8 @@ XXM4 VCC XM7/S XM9/G XM6/G sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
 XXM5 VSS XM6/S XM5/S XM6/G sky130_fd_pr__nfet_01v8_FGWQMQ
 XXM6 VCC XM6/D XM6/S XM6/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
 XXM7 VCC VCC XM7/S XM7/G sky130_fd_pr__pfet_01v8_8SGQ8J
-XXM9 VCC V_MEM_BUF VSS XM9/G sky130_fd_pr__pfet_01v8_lvt_GCEZRS
 XXM8 VCC VCC XM6/D XM8/G1 VCC XM6/D XM8/G1 sky130_fd_pr__pfet_01v8_9ZQHCF
+XXM9 VCC V_MEM_BUF VSS XM9/G sky130_fd_pr__pfet_01v8_lvt_GCEZRS
 XXC1 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA
 XXC2 XM6/S VSS sky130_fd_pr__cap_mim_m3_1_3EYAHJ
 XXC3 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA

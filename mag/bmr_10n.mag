@@ -1,10 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788765446
-<< pwell >>
-rect 2651 -951 3130 -469
-rect 3251 -951 3730 -469
+timestamp 1788804191
 << locali >>
 rect 3929 2587 5274 2590
 rect 11 2543 5278 2587
@@ -15,14 +12,11 @@ rect 33 1065 2237 2192
 rect 3929 1109 5274 2192
 rect -24 14 2879 628
 rect -24 -84 106 14
-rect 2664 -70 2879 14
+rect 2664 -64 2879 14
+rect 2664 -70 5086 -64
 rect 2664 -84 5293 -70
-rect -24 -136 5293 -84
-rect -18 -381 5293 -136
-rect -18 -28532 2299 -381
-rect 4667 -28532 5210 -381
-rect -22 -28542 5210 -28532
-rect -22 -28713 5205 -28542
+rect -24 -100 5293 -84
+rect 290 -390 5086 -100
 << viali >>
 rect 47 2473 5203 2543
 rect 106 -84 2664 14
@@ -56,17 +50,17 @@ rect -24 46 2742 67
 rect -24 14 3207 46
 rect -24 -84 106 14
 rect 2664 -84 3207 14
-rect -24 -110 3207 -84
-rect -24 -136 178 -110
-rect 2368 -938 2532 -110
-rect 2651 -951 3130 -469
-rect 3251 -951 3730 -469
-rect 3826 -949 4305 -467
-rect 4450 -925 4614 57
-rect 2354 -28461 2833 -27979
-rect 2956 -28461 3435 -27979
-rect 3547 -28461 4026 -27979
-rect 4138 -28461 4617 -27979
+rect -24 -100 3207 -84
+rect 4450 -100 4614 57
+rect 362 -826 656 -100
+rect 1044 -916 1820 -502
+rect 2274 -892 3050 -478
+rect 3504 -900 4280 -486
+rect 4666 -830 5088 94
+rect 400 -28434 1176 -28020
+rect 1640 -28450 2416 -28036
+rect 2916 -28426 3692 -28012
+rect 4154 -28456 4930 -28042
 use sky130_fd_pr__pfet_01v8_8SGQ8J  XM1
 timestamp 1788765446
 transform 0 1 3655 -1 0 1672
@@ -89,7 +83,7 @@ transform 0 1 2491 -1 0 1672
 box -596 -319 596 319
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR1
 timestamp 1788761146
-transform -1 0 4523 0 -1 -14459
+transform -1 0 4831 0 -1 -14454
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR2
 timestamp 1788761146
@@ -97,27 +91,27 @@ transform -1 0 4227 0 -1 -14459
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR3
 timestamp 1788761146
-transform -1 0 3931 0 -1 -14459
+transform -1 0 3601 0 -1 -14454
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR4
 timestamp 1788761146
-transform -1 0 3635 0 -1 -14459
+transform -1 0 2977 0 -1 -14448
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR5
 timestamp 1788761146
-transform -1 0 3339 0 -1 -14459
+transform -1 0 2353 0 -1 -14448
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR6
 timestamp 1788761146
-transform -1 0 3043 0 -1 -14459
+transform -1 0 1717 0 -1 -14454
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR7
 timestamp 1788761146
-transform -1 0 2747 0 -1 -14459
+transform -1 0 1087 0 -1 -14466
 box -201 -14132 201 14132
 use sky130_fd_pr__res_xhigh_po_0p35_872VHY  XR8
 timestamp 1788761146
-transform -1 0 2451 0 -1 -14459
+transform -1 0 475 0 -1 -14466
 box -201 -14132 201 14132
 << labels >>
 flabel metal1 -20 2290 180 2490 0 FreeSans 1600 0 0 0 VCC
@@ -128,8 +122,8 @@ port 3 nsew
 rlabel metal1 -26 708 176 911 0 VBN
 rlabel metal1 5702 927 5904 1130 0 VBP
 port 1 nsew
-rlabel metal1 -24 -136 178 67 0 VSS
-port 2 nsew
 rlabel metal1 -22 1529 177 1730 0 rst_n
 port 4 nsew
+rlabel metal1 -24 -100 106 67 0 VSS
+port 2 nsew
 << end >>

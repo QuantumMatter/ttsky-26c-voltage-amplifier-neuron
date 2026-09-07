@@ -440,11 +440,11 @@ MACRO tt_um_voltage_amplifier_neuron
   END VGND
   OBS
       LAYER nwell ;
-        RECT 19.915 30.955 113.040 204.775 ;
+        RECT 19.845 30.920 113.040 204.775 ;
       LAYER li1 ;
-        RECT 18.305 30.345 112.890 207.260 ;
+        RECT 18.305 31.100 112.860 207.260 ;
       LAYER met1 ;
-        RECT 0.970 31.605 141.380 221.860 ;
+        RECT 0.970 31.630 141.380 221.860 ;
       LAYER met2 ;
         RECT 1.110 101.710 141.330 221.870 ;
       LAYER met3 ;

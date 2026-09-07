@@ -39,13 +39,13 @@ X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
 .ends
 
-.subckt sky130_fd_pr__pfet_01v8_lvt_GCEZRS B D S G
-X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=11.6 pd=80.58 as=11.6 ps=80.58 w=40 l=0.5
-.ends
-
 .subckt sky130_fd_pr__pfet_01v8_9ZQHCF B D0 S0 G0 D1 S1 G1
 X0 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
 X1 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GCEZRS B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=11.6 pd=80.58 as=11.6 ps=80.58 w=40 l=0.5
 .ends
 
 .subckt sky130_fd_pr__cap_mim_m3_1_4SQMGA C2 C1
@@ -61,7 +61,7 @@ X0 S0 G0 D0 B sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=0.7
 X1 S1 G1 D1 B sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=0.75
 .ends
 
-.subckt vamp_if_neuron V_MEM_BUF rst_n IN1 IN2 IN3 IN4 IN5 XM9/G XM3/G XM6/G XR4/R1
+.subckt vamp_if_neuron V_MEM_BUF rst_n IN1 IN2 IN3 IN4 IN5 XR4/R1 XM3/G XM6/G XM9/G
 + XM7/G VCC VSS XM8/G1 XM2/G3
 XXR3 VSS XR4/R1 VCC sky130_fd_pr__res_xhigh_po_0p35_TR4WTB
 XXR4 VSS XR4/R1 VSS sky130_fd_pr__res_xhigh_po_0p35_JXEFPG
@@ -72,8 +72,8 @@ XXM4 VCC XM7/S XM9/G XM6/G sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
 XXM5 VSS XM6/S XM5/S XM6/G sky130_fd_pr__nfet_01v8_FGWQMQ
 XXM6 VCC XM6/D XM6/S XM6/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
 XXM7 VCC VCC XM7/S XM7/G sky130_fd_pr__pfet_01v8_8SGQ8J
-XXM9 VCC V_MEM_BUF VSS XM9/G sky130_fd_pr__pfet_01v8_lvt_GCEZRS
 XXM8 VCC VCC XM6/D XM8/G1 VCC XM6/D XM8/G1 sky130_fd_pr__pfet_01v8_9ZQHCF
+XXM9 VCC V_MEM_BUF VSS XM9/G sky130_fd_pr__pfet_01v8_lvt_GCEZRS
 XXC1 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA
 XXC2 XM6/S VSS sky130_fd_pr__cap_mim_m3_1_3EYAHJ
 XXC3 XM9/G VSS sky130_fd_pr__cap_mim_m3_1_4SQMGA
@@ -95,6 +95,11 @@ XXM4 VCC VCC OUT XM4/G sky130_fd_pr__pfet_01v8_lvt_7M33HH
 XXM5 VSS XM2/S VSS BIAS XM2/S VSS BIAS sky130_fd_pr__nfet_01v8_XETRKN
 .ends
 
+.subckt inv VDD IN OUT VSS
+XXM1 VSS OUT VSS IN sky130_fd_pr__nfet_01v8_FGWQMQ
+XXM2 VDD VDD OUT IN sky130_fd_pr__pfet_01v8_lvt_7M33HH
+.ends
+
 .subckt sky130_fd_pr__res_xhigh_po_0p35_872VHY B R1 R2
 X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=135.5
 .ends
@@ -107,14 +112,14 @@ X0 S G D B sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=4
 XXR1 VSS XR2/R1 XM3/S sky130_fd_pr__res_xhigh_po_0p35_872VHY
 XXR2 VSS XR2/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
 XXR3 VSS XR4/R1 XR3/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
-XXR4 VSS XR4/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
 XXR5 VSS XR6/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
-XXM1 VCC VCC VBP VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXR4 VSS XR4/R1 XR5/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
 XXR6 VSS XR6/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
-XXM2 VCC VCC VBN VBP sky130_fd_pr__pfet_01v8_8SGQ8J
+XXM1 VCC VCC VBP VBP sky130_fd_pr__pfet_01v8_8SGQ8J
 XXR7 VSS XR8/R1 XR7/R2 sky130_fd_pr__res_xhigh_po_0p35_872VHY
-XXM3 VSS VBP XM3/S VBN sky130_fd_pr__nfet_01v8_XV5MNW
+XXM2 VCC VCC VBN VBP sky130_fd_pr__pfet_01v8_8SGQ8J
 XXR8 VSS XR8/R1 VSS sky130_fd_pr__res_xhigh_po_0p35_872VHY
+XXM3 VSS VBP XM3/S VBN sky130_fd_pr__nfet_01v8_XV5MNW
 XXM4 VSS VBN VSS VBN sky130_fd_pr__nfet_01v8_PCYQPL
 XXM5 VCC VCC VBN rst_n sky130_fd_pr__pfet_01v8_8SGQ8J
 .ends
@@ -141,11 +146,6 @@ XXM2 VSS VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N
 + VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N VBN_REF1N VSS VBN_REF1N sky130_fd_pr__nfet_01v8_YM6BDQ
 XXM3 VSS VBP_REF1N VSS VBN_REF1N sky130_fd_pr__nfet_01v8_PCYQPL
 XXM4 VCC VCC VBP_REF1N VBP_REF1N sky130_fd_pr__pfet_01v8_8SGQ8J
-.ends
-
-.subckt inv VDD IN OUT VSS
-XXM1 VSS OUT VSS IN sky130_fd_pr__nfet_01v8_FGWQMQ
-XXM2 VDD VDD OUT IN sky130_fd_pr__pfet_01v8_lvt_7M33HH
 .ends
 
 .subckt sky130_fd_pr__pfet_01v8_CQGWXL B D S G
@@ -182,12 +182,12 @@ XXM21 VCC XM21/D V_STIM IN5 sky130_fd_pr__pfet_01v8_lvt_Y5YEVR
 + uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
 + VDPWR VGND
 Xvamp_if_neuron_0 ua[0] vamp_if_neuron_0/rst_n vamp_if_neuron_0/IN1 vamp_if_neuron_0/IN2
-+ vamp_if_neuron_0/IN3 vamp_if_neuron_0/IN4 vamp_if_neuron_0/IN5 ota_0/+ bmr_0/VBN_REF1N
-+ inv_0/OUT ota_0/- bmr_0/VBP_REF10N VDPWR VGND bmr_0/VBP_REF1N ota_0/BIAS vamp_if_neuron
++ vamp_if_neuron_0/IN3 vamp_if_neuron_0/IN4 vamp_if_neuron_0/IN5 ota_0/- bmr_0/VBN_REF1N
++ inv_0/OUT ota_0/+ bmr_0/VBP_REF10N VDPWR VGND bmr_0/VBP_REF1N ota_0/BIAS vamp_if_neuron
 Xota_0 VDPWR inv_0/IN ota_0/- ota_0/+ VGND ota_0/BIAS ota
+Xinv_0 VDPWR inv_0/IN inv_0/OUT VGND inv
 Xbmr_0 bmr_0/VBP_REF10N bmr_0/VBP_REF1N bmr_0/VBN_REF1N rst_n ota_0/BIAS VDPWR VGND
 + bmr
-Xinv_0 VDPWR inv_0/IN inv_0/OUT VGND inv
 Xinput_current_bank_0 VDPWR ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] bmr_0/VBP_REF1N
 + ota_0/+ input_current_bank
 .ends
