@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788804363
+timestamp 1788804747
 << locali >>
 rect 16302 20044 21086 20148
 rect 16302 19926 16426 20044
@@ -367,7 +367,7 @@ rect 22376 12436 26812 12458
 rect 22376 11116 23022 12436
 rect 25294 11098 26052 12436
 use sky130_fd_pr__cap_mim_m3_1_4SQMGA  XC1
-timestamp 1788765446
+timestamp 1788804747
 transform 1 0 18783 0 1 15859
 box -2479 -2303 2479 2303
 use sky130_fd_pr__cap_mim_m3_1_3EYAHJ  XC2
@@ -375,7 +375,7 @@ timestamp 1788765446
 transform 1 0 21487 0 1 8891
 box -2691 -2515 2691 2515
 use sky130_fd_pr__cap_mim_m3_1_4SQMGA  XC3
-timestamp 1788765446
+timestamp 1788804747
 transform -1 0 23637 0 -1 15859
 box -2479 -2303 2479 2303
 use sky130_fd_pr__cap_mim_m3_1_3EYAHJ  XC4
@@ -426,12 +426,12 @@ use sky130_fd_pr__nfet_01v8_PCYQPL  XM11
 timestamp 1788765446
 transform 0 1 20146 -1 0 14885
 box -596 -310 596 310
-use sky130_fd_pr__res_xhigh_po_0p35_TR4WTB  XR3
-timestamp 1788765446
+use sky130_fd_pr__res_xhigh_po_1p41_G5HDXZ  XR3
+timestamp 1788804747
 transform 0 -1 26260 1 0 14461
 box -201 -1582 201 1582
-use sky130_fd_pr__res_xhigh_po_0p35_JXEFPG  XR4
-timestamp 1788765446
+use sky130_fd_pr__res_xhigh_po_1p41_6YDR5Y  XR4
+timestamp 1788804747
 transform 0 -1 25922 1 0 13859
 box -201 -1218 201 1218
 << labels >>
