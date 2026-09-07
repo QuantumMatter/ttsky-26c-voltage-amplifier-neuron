@@ -1,0 +1,131 @@
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/tt_um_voltage_amplifier_neuron.sch
+.subckt tt_um_voltage_amplifier_neuron VDPWR VGND rst_n ua[0] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4]
+*.PININFO VDPWR:B VGND:B rst_n:I ua[0]:O ui_in[0]:I ui_in[1]:I ui_in[2]:I ui_in[3]:I ui_in[4]:I
+x1 VDPWR ua[0] VGND rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] vamp_if_neuron
+.ends
+
+* expanding   symbol:  vamp_if_neuron.sym # of pins=9
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/vamp_if_neuron.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/vamp_if_neuron.sch
+.subckt vamp_if_neuron VCC V_MEM_BUF VSS rst_n IN1 IN2 IN3 IN4 IN5
+*.PININFO VCC:B VSS:B rst_n:I V_MEM_BUF:O IN1:I IN2:I IN3:I IN4:I IN5:I
+x1 VCC net1 VSS VBN_REF10N V_MEM V_THRES ota
+x2 VCC net1 V_inv1 VSS inv
+XC1 VSS V_MEM sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
+XM1 net5 V_inv2 VK_SRC VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1
+XM5 V_inv2 V_inv1 VNET_KDOWN_SRC VSS sky130_fd_pr__nfet_01v8 L=0.5 W=1 nf=1
+XM6 V_inv2 V_inv1 net3 VCC sky130_fd_pr__pfet_01v8_lvt L=0.5 W=2 nf=1
+XC2 VSS V_inv2 sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
+VSNA net6 V_MEM 0
+.save i(vsna)
+VSKUP net4 net3 0
+.save i(vskup)
+VSK net5 V_MEM 0
+.save i(vsk)
+VSKDOWN net2 VNET_KDOWN_SRC 0
+.save i(vskdown)
+XM2 VK_SRC VBN_REF10N VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1 m=4
+XM3 net2 VBN_REF1N VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=2 nf=1
+XM7 VNA_SRC VBP_REF10N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM8 net4 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=2.5 nf=1 m=2
+XM4 net6 V_inv1 VNA_SRC VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+VSIN V_STIM V_MEM 0
+.save i(vsin)
+x3 VCC VBP_REF10N VSS VBP_REF1N VBN_REF10N VBN_REF1N rst_n bmr
+VSBUF net7 V_MEM_BUF 0
+.save i(vsbuf)
+XM9 VSS V_MEM V_MEM_BUF VCC sky130_fd_pr__pfet_01v8_lvt L=0.5 W=40 nf=1
+XM10 net7 VBP_REF10N VCC VCC sky130_fd_pr__pfet_01v8 L=0.75 W=10 nf=1 m=2
+XM11 net8 VBN_REF1N VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1
+VSLK net8 V_MEM 0
+.save i(vslk)
+XR3 V_THRES VCC VSS sky130_fd_pr__res_xhigh_po_0p35 L=10 mult=1
+XR4 VSS V_THRES VSS sky130_fd_pr__res_xhigh_po_0p35 L=6.36 mult=1
+x4 VCC V_STIM VBP_REF1N IN1 IN2 IN3 IN4 IN5 input_current_bank
+XC3 VSS V_MEM sky130_fd_pr__cap_mim_m3_1 W=22.63 L=22.63
+XC4 VSS V_inv2 sky130_fd_pr__cap_mim_m3_1 W=24.75 L=24.75
+.ends
+
+
+* expanding   symbol:  ota/ota.sym # of pins=6
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/ota/ota.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/ota/ota.sch
+.subckt ota VCC OUT VSS BIAS + -
+*.PININFO BIAS:I +:I -:I OUT:O VCC:B VSS:B
+XM1 VSRC + VBOT VSS sky130_fd_pr__nfet_01v8 L=0.5 W=1 nf=1
+XM2 OUT - VBOT VSS sky130_fd_pr__nfet_01v8 L=0.5 W=1 nf=1
+XM3 VSRC VSRC VCC VCC sky130_fd_pr__pfet_01v8_lvt L=0.5 W=2 nf=1
+XM4 OUT VSRC VCC VCC sky130_fd_pr__pfet_01v8_lvt L=0.5 W=2 nf=1
+XM5 VBOT BIAS VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=2
+.ends
+
+
+* expanding   symbol:  inv/inv.sym # of pins=4
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/inv/inv.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/inv/inv.sch
+.subckt inv VDD IN OUT VSS
+*.PININFO IN:I VDD:B VSS:B OUT:O
+XM1 OUT IN VSS VSS sky130_fd_pr__nfet_01v8 L=0.5 W=1 nf=1
+XM2 OUT IN VDD VDD sky130_fd_pr__pfet_01v8_lvt L=0.5 W=2 nf=1
+.ends
+
+
+* expanding   symbol:  bias/bmr.sym # of pins=7
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/bias/bmr.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/bias/bmr.sch
+.subckt bmr VCC VBP_REF10N VSS VBP_REF1N VBN_REF10N VBN_REF1N rst_n
+*.PININFO VCC:B VSS:B rst_n:I VBP_REF10N:O VBP_REF1N:O VBN_REF10N:O VBN_REF1N:O
+x1 VCC VBP_REF10N VSS VBN_REF10N rst_n bmr_10n
+XM1 net1 VBP_REF10N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM2 VBN_REF1N VBN_REF1N VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1 m=10
+XM3 net2 VBN_REF1N VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1
+XM4 VBP_REF1N VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+Vmeas net1 VBN_REF1N 0
+.save i(vmeas)
+Vmeas1 VBP_REF1N net2 0
+.save i(vmeas1)
+.ends
+
+
+* expanding   symbol:  input_current_bank.sym # of pins=8
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/input_current_bank.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/input_current_bank.sch
+.subckt input_current_bank VCC V_STIM VBP_REF1N IN1 IN2 IN3 IN4 IN5
+*.PININFO VCC:B V_STIM:B VBP_REF1N:I IN1:I IN2:I IN3:I IN4:I IN5:I
+X0.5 net1 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=16 W=0.5 nf=1
+XM13 V_STIM IN1 net1 VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+XM14 net2 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=8 W=0.5 nf=1
+XM15 V_STIM IN2 net2 VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+XM16 net3 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM17 V_STIM IN3 net3 VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+XM18 net4 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM19 V_STIM IN4 net4 VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+XM20 net5 VBP_REF1N VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1 m=2
+XM21 V_STIM IN5 net5 VCC sky130_fd_pr__pfet_01v8_lvt L=4 W=2 nf=1
+.ends
+
+
+* expanding   symbol:  bias/bmr_10n.sym # of pins=5
+** sym_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/bias/bmr_10n.sym
+** sch_path: /foss/designs/ttsky-26c-voltage-amplifier-neuron/schem/bias/bmr_10n.sch
+.subckt bmr_10n VCC VBP VSS VBN rst_n
+*.PININFO VCC:B VSS:B rst_n:I VBP:O VBN:O
+XM1 VBP VBP VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM2 net3 VBP VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XM3 net2 VBN net1 VSS sky130_fd_pr__nfet_01v8 L=4 W=8 nf=1
+XM4 VBN VBN VSS VSS sky130_fd_pr__nfet_01v8 L=4 W=1 nf=1
+XR1 net4 net1 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+VSRIGHT VBP net2 0
+.save i(vsright)
+VSLEFT net3 VBN 0
+.save i(vsleft)
+XM5 VBN rst_n VCC VCC sky130_fd_pr__pfet_01v8 L=4 W=1 nf=1
+XR2 net5 net4 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR3 net6 net5 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR4 net7 net6 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR5 net8 net7 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR6 net9 net8 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR7 net10 net9 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+XR8 VSS net10 VSS sky130_fd_pr__res_xhigh_po_0p35 L=135.5 mult=1
+.ends
+

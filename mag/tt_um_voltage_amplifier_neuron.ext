@@ -1,0 +1,1395 @@
+timestamp 1788802595
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use input_current_bank input_current_bank_0 0 1 19570 -1 0 42686
+use vamp_if_neuron vamp_if_neuron_0 1 0 -5234 0 1 15670
+use inv inv_0 0 1 19497 -1 0 29066
+use ota ota_0 1 0 15440 0 1 30452
+use bmr bmr_0 1 0 2350 0 1 40620
+port "ua[1]" 4 26498 0 26678 200 m4
+port "ua[2]" 5 22634 0 22814 200 m4
+port "ua[3]" 6 18770 0 18950 200 m4
+port "ua[4]" 7 14906 0 15086 200 m4
+port "ua[5]" 8 11042 0 11222 200 m4
+port "ua[6]" 9 7178 0 7358 200 m4
+port "ua[7]" 10 3314 0 3494 200 m4
+port "ena" 1 29318 44952 29378 45152 m4
+port "clk" 0 28766 44952 28826 45152 m4
+port "ui_in[5]" 16 24902 44952 24962 45152 m4
+port "ui_in[6]" 17 24350 44952 24410 45152 m4
+port "ui_in[7]" 18 23798 44952 23858 45152 m4
+port "uio_in[0]" 19 23246 44952 23306 45152 m4
+port "uio_in[1]" 20 22694 44952 22754 45152 m4
+port "uio_in[2]" 21 22142 44952 22202 45152 m4
+port "uio_in[3]" 22 21590 44952 21650 45152 m4
+port "uio_in[4]" 23 21038 44952 21098 45152 m4
+port "uio_in[5]" 24 20486 44952 20546 45152 m4
+port "uio_in[6]" 25 19934 44952 19994 45152 m4
+port "uio_in[7]" 26 19382 44952 19442 45152 m4
+port "uo_out[0]" 43 18830 44952 18890 45152 m4
+port "uo_out[1]" 44 18278 44952 18338 45152 m4
+port "uo_out[2]" 45 17726 44952 17786 45152 m4
+port "uo_out[3]" 46 17174 44952 17234 45152 m4
+port "uo_out[4]" 47 16622 44952 16682 45152 m4
+port "uo_out[5]" 48 16070 44952 16130 45152 m4
+port "uo_out[6]" 49 15518 44952 15578 45152 m4
+port "uo_out[7]" 50 14966 44952 15026 45152 m4
+port "uio_out[0]" 35 14414 44952 14474 45152 m4
+port "uio_out[1]" 36 13862 44952 13922 45152 m4
+port "uio_out[2]" 37 13310 44952 13370 45152 m4
+port "uio_out[3]" 38 12758 44952 12818 45152 m4
+port "uio_out[4]" 39 12206 44952 12266 45152 m4
+port "uio_out[5]" 40 11654 44952 11714 45152 m4
+port "uio_out[6]" 41 11102 44952 11162 45152 m4
+port "uio_out[7]" 42 10550 44952 10610 45152 m4
+port "uio_oe[0]" 27 9998 44952 10058 45152 m4
+port "uio_oe[1]" 28 9446 44952 9506 45152 m4
+port "uio_oe[2]" 29 8894 44952 8954 45152 m4
+port "uio_oe[3]" 30 8342 44952 8402 45152 m4
+port "uio_oe[4]" 31 7790 44952 7850 45152 m4
+port "uio_oe[5]" 32 7238 44952 7298 45152 m4
+port "uio_oe[6]" 33 6686 44952 6746 45152 m4
+port "uio_oe[7]" 34 6134 44952 6194 45152 m4
+port "ui_in[4]" 15 25454 44952 25514 45152 m4
+port "ui_in[3]" 14 26006 44952 26066 45152 m4
+port "ui_in[2]" 13 26558 44952 26618 45152 m4
+port "ua[0]" 3 30362 0 30542 200 m4
+port "ui_in[1]" 12 27110 44952 27170 45152 m4
+port "ui_in[0]" 11 27662 44952 27722 45152 m4
+port "VGND" 52 800 1000 1200 44152 m4
+port "VDPWR" 51 200 1000 600 44152 m4
+port "rst_n" 2 28214 44952 28274 45152 m4
+node "ua[1]" 0 146.962 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[2]" 0 146.962 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[3]" 0 146.962 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[4]" 0 146.962 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[5]" 0 146.962 11042 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[6]" 0 146.962 7178 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[7]" 0 146.962 3314 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ena" 0 70.3847 29318 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "clk" 0 42.8754 28766 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "m4_15880_31228#" 1 929.917 15880 31228 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 602784 5620 0 0 0 0
+node "ui_in[5]" 0 42.2833 24902 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[6]" 0 42.2833 24350 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[7]" 0 42.2833 23798 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[0]" 0 42.2833 23246 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[1]" 0 42.2833 22694 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[2]" 0 42.2833 22142 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[3]" 0 42.2833 21590 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[4]" 0 42.2833 21038 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[5]" 0 42.2833 20486 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[6]" 0 42.2833 19934 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[7]" 0 42.2833 19382 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[0]" 0 42.2833 18830 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[1]" 0 42.2833 18278 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[2]" 0 42.2833 17726 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[3]" 0 42.2833 17174 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[4]" 0 42.2833 16622 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[5]" 0 42.2833 16070 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[6]" 0 42.2833 15518 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[7]" 0 42.2833 14966 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[0]" 0 42.2833 14414 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[1]" 0 42.2833 13862 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[2]" 0 42.2833 13310 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[3]" 0 42.2833 12758 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[4]" 0 42.2833 12206 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[5]" 0 42.2833 11654 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[6]" 0 42.2833 11102 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[7]" 0 42.2833 10550 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[0]" 0 42.2833 9998 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[1]" 0 42.2833 9446 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[2]" 0 42.2833 8894 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[3]" 0 42.2833 8342 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[4]" 0 42.2833 7790 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[5]" 0 42.2833 7238 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[6]" 0 42.2833 6686 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[7]" 0 69.7926 6134 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "m1_18840_26912#" 0 93.1767 18840 26912 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11536 524 0 0 0 0 0 0 0 0 0 0
+node "m1_16962_24280#" 3 2915.21 16962 24280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1060700 10912 88704 1192 0 0 0 0 0 0 0 0
+node "m1_19506_28834#" 2 2196.8 19506 28834 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108652 1868 1039424 7572 0 0 0 0 0 0 0 0
+node "m1_16640_28140#" 1 2559.91 16640 28140 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1713028 6380 140980 1592 140800 1612 0 0 0 0 0 0
+node "m1_15928_29382#" 1 378.287 15928 29382 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122944 2080 0 0 0 0 0 0 0 0 0 0
+node "m1_18836_29898#" 1 571.597 18836 29898 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250160 2784 0 0 0 0 0 0 0 0 0 0
+node "m1_18822_30226#" 2 1174.84 18822 30226 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148624 2292 398192 4232 0 0 0 0 0 0 0 0
+node "m1_18492_30542#" 3 2327.84 18492 30542 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 903412 10152 0 0 0 0 0 0 0 0 0 0
+node "ui_in[4]" 14 6977.84 25454 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2085696 15060 80696 1140 84036 1160 885900 28086 0 0 0 0
+node "ui_in[3]" 13 4712.03 26006 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2087388 15072 80696 1140 84036 1160 844260 26698 0 0 0 0
+node "ui_in[2]" 13 4648.08 26558 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2085696 15060 80696 1140 84036 1160 797340 25134 0 0 0 0
+node "ua[0]" 19 23363.6 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2563252 26568 217092 1864 221312 1884 7026580 77578 0 0 0 0
+node "m1_15878_30076#" 5 5574.62 15878 30076 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1925172 13936 602784 5620 612672 5628 0 0 0 0 0 0
+node "ui_in[1]" 12 5563.63 27110 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2089080 15084 80696 1140 84036 1160 755940 23754 0 0 0 0
+node "ui_in[0]" 10 6925.93 27662 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2105088 15200 80696 1140 84036 1160 598980 18522 0 0 0 0
+node "m1_9388_33292#" 4 2406.86 9388 33292 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 536112 5664 517752 6716 0 0 0 0 0 0 0 0
+node "m1_8790_34908#" 10 6008.6 8790 34908 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1269568 15784 117696 3172 1225452 14916 0 0 0 0 0 0
+node "VGND" 11 22673 800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2277672 13732 263920 2916 5720504 36256 17271960 87228 0 0 0 0
+node "m1_2766_39548#" 8 8694.66 2766 39548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33120 728 3216032 24516 85180 1660 1736124 19040 0 0 0 0
+node "m1_9590_40178#" 20 17269.1 9590 40178 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3467560 34056 4380692 37732 0 0 0 0 0 0 0 0
+node "VDPWR" 15 36386.9 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4672276 21880 595720 6172 10830812 68008 17260800 87104 0 0 0 0
+node "rst_n" 30 16188.4 28214 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3754448 56212 99520 2132 105060 2192 1902336 18656 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "rst_n" "uio_oe[7]" 1.28278
+cap "uo_out[5]" "uo_out[6]" 31.0231
+cap "rst_n" "ui_in[5]" 1.28278
+cap "uo_out[7]" "uo_out[6]" 31.0231
+cap "uio_out[2]" "uio_out[1]" 31.0231
+cap "uio_in[2]" "rst_n" 1.28278
+cap "m1_18492_30542#" "m1_18836_29898#" 87.8174
+cap "m1_16640_28140#" "m1_8790_34908#" 29.2228
+cap "uio_oe[4]" "uio_oe[5]" 31.0231
+cap "ui_in[1]" "ui_in[4]" 82.9854
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "VGND" "m1_8790_34908#" 1286.74
+cap "ui_in[7]" "ui_in[6]" 31.0231
+cap "VGND" "m1_2766_39548#" 588.838
+cap "uo_out[1]" "uo_out[2]" 31.0231
+cap "rst_n" "VDPWR" 1086.18
+cap "rst_n" "ui_in[2]" 31.903
+cap "m4_15880_31228#" "m1_15878_30076#" 1456.89
+cap "rst_n" "uio_oe[4]" 1.28278
+cap "ui_in[4]" "ui_in[5]" 31.0231
+cap "uo_out[1]" "uo_out[0]" 31.0231
+cap "uio_oe[2]" "uio_oe[1]" 31.0231
+cap "m1_9388_33292#" "m1_8790_34908#" 348.155
+cap "ui_in[3]" "ui_in[2]" 2594.84
+cap "ui_in[2]" "ui_in[0]" 64.4499
+cap "uio_oe[3]" "uio_oe[4]" 31.0231
+cap "rst_n" "uo_out[6]" 1.28278
+cap "uo_out[4]" "uo_out[5]" 31.0231
+cap "uo_out[4]" "uo_out[3]" 31.0231
+cap "m1_9590_40178#" "m1_18840_26912#" 0.746338
+cap "uio_in[3]" "uio_in[4]" 31.0231
+cap "m1_8790_34908#" "m1_2766_39548#" 441.17
+cap "uio_out[5]" "uio_out[4]" 31.0231
+cap "uio_oe[6]" "uio_oe[5]" 31.0231
+cap "uio_out[7]" "uio_out[6]" 31.0231
+cap "uio_out[2]" "rst_n" 1.28278
+cap "ui_in[4]" "ui_in[2]" 93.2005
+cap "uio_out[1]" "rst_n" 1.28278
+cap "uio_out[1]" "uio_out[0]" 31.0231
+cap "uio_out[3]" "uio_out[4]" 31.0231
+cap "VGND" "m1_9590_40178#" 225.582
+cap "VGND" "VDPWR" 15296.8
+cap "uio_out[6]" "rst_n" 1.28278
+cap "uio_oe[6]" "rst_n" 1.28278
+cap "m1_16962_24280#" "m1_9590_40178#" 437.268
+cap "uio_in[4]" "rst_n" 1.28278
+cap "uo_out[5]" "rst_n" 1.28278
+cap "rst_n" "uo_out[7]" 1.28278
+cap "uio_in[0]" "rst_n" 1.28278
+cap "uio_out[0]" "uo_out[7]" 31.0231
+cap "rst_n" "uo_out[3]" 1.28278
+cap "m1_15928_29382#" "m1_15878_30076#" 70.5605
+cap "uo_out[4]" "rst_n" 1.28278
+cap "m1_18822_30226#" "m1_19506_28834#" 21.8215
+cap "uio_in[0]" "uio_in[1]" 31.0231
+cap "uio_in[3]" "rst_n" 1.28278
+cap "clk" "rst_n" 31.0231
+cap "m1_9388_33292#" "VDPWR" 233.654
+cap "m1_9388_33292#" "m1_9590_40178#" 506.961
+cap "ui_in[6]" "ui_in[5]" 31.0231
+cap "rst_n" "uio_oe[5]" 1.28278
+cap "uio_in[6]" "rst_n" 1.28278
+cap "uio_in[7]" "uio_in[6]" 31.0231
+cap "VGND" "ua[0]" 209.137
+cap "uio_out[7]" "rst_n" 1.28278
+cap "m1_8790_34908#" "VDPWR" 36.4285
+cap "m1_8790_34908#" "m1_9590_40178#" 345.405
+cap "m1_2766_39548#" "VDPWR" 703.45
+cap "ui_in[7]" "uio_in[0]" 31.0231
+cap "m1_9590_40178#" "m1_2766_39548#" 462.324
+cap "clk" "ena" 31.0231
+cap "ui_in[1]" "ui_in[2]" 2643.65
+cap "m1_18822_30226#" "m1_18492_30542#" 127.507
+cap "uio_out[0]" "rst_n" 1.28278
+cap "uio_in[7]" "rst_n" 1.28278
+cap "m1_16640_28140#" "m1_15878_30076#" 0.368201
+cap "rst_n" "uio_in[1]" 1.28278
+cap "uio_out[7]" "uio_oe[0]" 31.0231
+cap "rst_n" "ui_in[0]" 175.505
+cap "uio_oe[3]" "rst_n" 1.28278
+cap "m1_18822_30226#" "m1_16640_28140#" 58.0351
+cap "rst_n" "ui_in[3]" 31.7589
+cap "VGND" "m1_15878_30076#" 0.594783
+cap "m1_19506_28834#" "m1_18492_30542#" 18.6513
+cap "ua[0]" "m1_8790_34908#" 141.983
+cap "ua[0]" "m1_2766_39548#" 425.588
+cap "ui_in[3]" "ui_in[0]" 63.9503
+cap "m1_18822_30226#" "m1_16962_24280#" 6.51852
+cap "ui_in[7]" "rst_n" 1.28278
+cap "uio_oe[0]" "rst_n" 1.28278
+cap "uio_out[5]" "uio_out[6]" 31.0231
+cap "m1_19506_28834#" "m1_16640_28140#" 3.24182
+cap "m1_16640_28140#" "m1_15928_29382#" 32.2443
+cap "ui_in[4]" "rst_n" 41.2685
+cap "uio_out[2]" "uio_out[3]" 31.0231
+cap "m1_15928_29382#" "VGND" 6.81233
+cap "uo_out[2]" "uo_out[3]" 31.0231
+cap "m1_9590_40178#" "VDPWR" 309.885
+cap "ui_in[4]" "ui_in[0]" 84.6245
+cap "VGND" "rst_n" 875.854
+cap "ui_in[4]" "ui_in[3]" 2875.15
+cap "uio_in[5]" "uio_in[4]" 31.0231
+cap "m1_8790_34908#" "m1_15878_30076#" 5.08305
+cap "m1_2766_39548#" "m1_15878_30076#" 0.272489
+cap "uo_out[1]" "rst_n" 1.28278
+cap "m1_18492_30542#" "ui_in[4]" 151.459
+cap "uio_oe[6]" "uio_oe[7]" 31.0231
+cap "m1_18822_30226#" "m1_18836_29898#" 500.962
+cap "m1_16640_28140#" "m1_18492_30542#" 3.84024
+cap "uio_in[5]" "uio_in[6]" 31.0231
+cap "m1_16962_24280#" "m1_18840_26912#" 20.2313
+cap "uio_oe[1]" "rst_n" 1.28278
+cap "m1_15928_29382#" "m1_8790_34908#" 32.8512
+cap "rst_n" "uo_out[2]" 1.28278
+cap "uio_oe[2]" "rst_n" 1.28278
+cap "ua[0]" "m1_9590_40178#" 388.425
+cap "uio_out[5]" "rst_n" 1.28278
+cap "m1_16640_28140#" "VGND" 429.615
+cap "rst_n" "m1_2766_39548#" 849.508
+cap "m1_19506_28834#" "m1_18836_29898#" 12.8146
+cap "uio_out[4]" "rst_n" 1.28278
+cap "uio_in[3]" "uio_in[2]" 31.0231
+cap "ui_in[1]" "rst_n" 32.0973
+cap "uio_oe[3]" "uio_oe[2]" 31.0231
+cap "m1_16640_28140#" "m1_16962_24280#" 117.436
+cap "uio_in[5]" "rst_n" 1.28278
+cap "VGND" "m1_16962_24280#" 6.66076
+cap "rst_n" "uo_out[0]" 1.28278
+cap "uio_out[3]" "rst_n" 1.28278
+cap "ui_in[1]" "ui_in[0]" 1469.01
+cap "ui_in[1]" "ui_in[3]" 73.9159
+cap "ui_in[6]" "rst_n" 1.28278
+cap "uio_in[7]" "uo_out[0]" 31.0231
+cap "uio_oe[0]" "uio_oe[1]" 31.0231
+cap "ua[0]" "vamp_if_neuron_0/XC2/C2" 15.9971
+cap "vamp_if_neuron_0/XC2/C1" "ua[0]" 4.87393
+cap "vamp_if_neuron_0/XC2/C2" "ua[0]" 63.2655
+cap "vamp_if_neuron_0/XC2/C1" "ua[0]" 24.8128
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/m1_19344_14734#" -0.115658
+cap "m1_16962_24280#" "vamp_if_neuron_0/m1_19344_14734#" 0.331538
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM3/G" -2.15469
+cap "vamp_if_neuron_0/XM5/G" "vamp_if_neuron_0/XM3/G" 6.07285
+cap "bmr_0/x1/XR8/B" "vamp_if_neuron_0/IN5" 167.63
+cap "bmr_0/x1/XR8/B" "vamp_if_neuron_0/IN3" 162.68
+cap "bmr_0/x1/XR8/B" "vamp_if_neuron_0/IN4" 162.68
+cap "bmr_0/x1/XR8/B" "vamp_if_neuron_0/IN2" 72.1941
+cap "bmr_0/x1/XR5/B" "vamp_if_neuron_0/m1_15032_16762#" 17.3241
+cap "vamp_if_neuron_0/m1_16298_16088#" "ua[0]" 11.5651
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 5.82884
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 26.3952
+cap "vamp_if_neuron_0/XC2/C1" "ua[0]" 18.1842
+cap "vamp_if_neuron_0/m1_16298_16088#" "m1_9590_40178#" 26.3952
+cap "vamp_if_neuron_0/XC2/C2" "ua[0]" 46.3646
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/m1_16298_16088#" -1.65539
+cap "vamp_if_neuron_0/m1_15032_16762#" "ua[0]" 362.829
+cap "vamp_if_neuron_0/m1_16298_16088#" "ua[0]" 292.217
+cap "m1_16962_24280#" "m1_9590_40178#" 26.3952
+cap "m1_16962_24280#" "vamp_if_neuron_0/XC2/C2" -3.76225
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XC2/C1" 3.19023e-15
+cap "vamp_if_neuron_0/XC2/C1" "m1_16962_24280#" 13.1508
+cap "m1_16962_24280#" "vamp_if_neuron_0/m1_15032_16762#" 0.714217
+cap "vamp_if_neuron_0/XM3/B" "vamp_if_neuron_0/XC2/C1" -9.57068e-15
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/m1_19344_14734#" -8.16859
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/XC2/C2" -0.0912118
+cap "vamp_if_neuron_0/m1_19344_14734#" "m1_16962_24280#" 129.4
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XC2/C2" -58.1121
+cap "m1_16962_24280#" "vamp_if_neuron_0/XC2/C2" 41.5778
+cap "vamp_if_neuron_0/XM3/B" "m1_16962_24280#" 0.324927
+cap "vamp_if_neuron_0/XM8/G0" "m1_16962_24280#" 26.2821
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XM5/G" 27.1087
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/G" 4.40929
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/G" 20.2539
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM5/G" 408.21
+cap "vamp_if_neuron_0/XC2/C1" "vamp_if_neuron_0/XM5/G" 30.8839
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XM5/D" -6.7334
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XC2/C1" -1.28337e-15
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM3/B" 0.00761489
+cap "vamp_if_neuron_0/XM3/B" "vamp_if_neuron_0/XM5/D" -0.00895945
+cap "vamp_if_neuron_0/XM3/G" "vamp_if_neuron_0/XM5/G" 70.8331
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XM5/G" 0.0112533
+cap "vamp_if_neuron_0/XM5/G" "vamp_if_neuron_0/XM5/D" 0.0250899
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XM5/D" -0.232517
+cap "vamp_if_neuron_0/XM5/G" "vamp_if_neuron_0/XC2/C1" -2.55158e-15
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/G" 4.39933
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XC2/C1" -0.250598
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/G" 3.70297
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/D" -0.21403
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/D" 7.22103
+cap "vamp_if_neuron_0/IN2" "bmr_0/x1/XR8/B" 90.4862
+cap "bmr_0/x1/XR8/B" "vamp_if_neuron_0/rst_n" 167.63
+cap "vamp_if_neuron_0/IN1" "bmr_0/x1/XR8/B" 162.68
+cap "m1_9590_40178#" "bmr_0/x1/XR5/B" 1.09527
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XR5/B" 12.3226
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_15032_16762#" 171.505
+cap "m1_9590_40178#" "bmr_0/x1/XR1/B" 1.43741
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/m1_16298_16088#" -33.3548
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 26.8924
+cap "ua[0]" "vamp_if_neuron_0/m1_16298_16088#" 18.8725
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 400.13
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 48.5437
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 26.3952
+cap "ua[0]" "vamp_if_neuron_0/m1_16298_16088#" 18.8725
+cap "vamp_if_neuron_0/XC2/C1" "ua[0]" 20.5591
+cap "vamp_if_neuron_0/m1_16298_16088#" "m1_9590_40178#" 26.3952
+cap "vamp_if_neuron_0/XC2/C1" "m1_9590_40178#" 39.4446
+cap "ua[0]" "vamp_if_neuron_0/XC2/C2" 52.42
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 48.5437
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC2/C2" 649.095
+cap "ua[0]" "m1_9590_40178#" -3.18919
+cap "m1_9590_40178#" "m1_16962_24280#" 26.3952
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC2/C2" 1293.5
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 48.5437
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/m1_19344_14734#" 496.088
+cap "m1_16962_24280#" "vamp_if_neuron_0/m1_19344_14734#" 143.548
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XC2/C1" 657.347
+cap "vamp_if_neuron_0/XM8/G0" "m1_16962_24280#" 26.2638
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM6/B" -20.1713
+cap "vamp_if_neuron_0/XM8/S0" "vamp_if_neuron_0/m1_19344_14734#" -1.70328
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/m1_19344_14734#" -187.121
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM6/B" 48.5437
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XC2/C2" 1293.5
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/XC2/C1" -122.3
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM5/G" 143.548
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM8/G0" 1208.26
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM6/B" 477.56
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM8/G0" -12.4075
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/G" 33.2491
+cap "vamp_if_neuron_0/XM5/B" "vamp_if_neuron_0/XM6/B" -5.32907e-15
+cap "vamp_if_neuron_0/XM5/B" "vamp_if_neuron_0/XM5/G" 2.22404e-15
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM6/D" -0.746923
+cap "vamp_if_neuron_0/XM5/B" "vamp_if_neuron_0/XM8/G0" 0.00220151
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM6/D" -1.68941
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/G" 7.51773
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM6/B" -104.418
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM6/D" 3.94777
+cap "vamp_if_neuron_0/XM5/D" "vamp_if_neuron_0/XM5/G" 382.897
+cap "vamp_if_neuron_0/XM5/G" "vamp_if_neuron_0/XM6/B" 74.8191
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM6/B" -0.664478
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/D" -2.48165
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/G" -1.28307
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/D" 990.195
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM6/B" 227.745
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/m1_19344_14734#" 0.00324039
+cap "vamp_if_neuron_0/XM6/B" "vamp_if_neuron_0/XM5/D" -0.159711
+cap "vamp_if_neuron_0/XM5/B" "vamp_if_neuron_0/XM6/D" -5.32907e-15
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM6/D" 60.822
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM5/B" 6.1963
+cap "vamp_if_neuron_0/XM6/D" "vamp_if_neuron_0/XM5/G" 3.00379
+cap "vamp_if_neuron_0/XM8/G0" "inv_0/XM2/D" 0.238469
+cap "bmr_0/x1/XR5/B" "vamp_if_neuron_0/m1_15032_16762#" 12.3226
+cap "bmr_0/x1/XR5/B" "m1_9590_40178#" 1.49399
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/VCC" -91.3593
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/m1_16298_16088#" 18.8725
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/B" -0.127688
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/m1_16298_16088#" -2.48387
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 273.032
+cap "m1_9590_40178#" "vamp_if_neuron_0/XM10/B" 4.4438
+cap "VGND" "vamp_if_neuron_0/VCC" 2.11488
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 3.85
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_9590_40178#" 265.517
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/m1_16298_16088#" -2.29373
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM9/B" 0.0361032
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 48.5437
+cap "m1_9590_40178#" "vamp_if_neuron_0/XM9/B" 5.56616
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM9/S" 3.73387
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/m1_16298_16088#" 18.8725
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 48.5437
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/XC2/C2" -1.69385
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/m1_19344_14734#" 1.12546
+cap "vamp_if_neuron_0/XC2/C1" "vamp_if_neuron_0/XM9/B" -1.28755
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM9/B" 1110.9
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM9/B" 0.366232
+cap "vamp_if_neuron_0/XM9/G" "m1_9590_40178#" 1.81457
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM9/B" -40.2866
+cap "vamp_if_neuron_0/XC2/C1" "vamp_if_neuron_0/XM10/D1" 3.58013
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM10/D1" 0.0136032
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/XM9/B" -4.61094
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/VCC" 336.084
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/VCC" 1.57356
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XC2/C2" 8.77374
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/XM9/B" -8.57998
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/VCC" -8.83074
+cap "m1_9590_40178#" "vamp_if_neuron_0/XM9/B" 3.43203
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM9/G" 25.8352
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM9/G" 0.906662
+cap "vamp_if_neuron_0/XM10/D1" "m1_9590_40178#" 0.0820789
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM9/B" -2.6486
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC2/C2" -20.0699
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM2/G0" 4.97055
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 48.5437
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/m1_19344_14734#" -1.42491
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XC1/C2" -0.147642
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XC2/C2" -18.8299
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/m1_19344_14734#" -0.380428
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM8/B" 48.5437
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/VSS" -3.51493
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/XM8/B" -20.0699
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM8/B" -5.01834
+cap "m1_16962_24280#" "vamp_if_neuron_0/m1_19344_14734#" 107.74
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM8/B" -24.9762
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/m1_19344_14734#" 5.94543
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/m1_19344_14734#" 0.00706613
+cap "vamp_if_neuron_0/XM2/S2" "inv_0/VDD" 3.59469
+cap "vamp_if_neuron_0/XM8/B" "vamp_if_neuron_0/XM2/S2" -1.4796
+cap "inv_0/OUT" "vamp_if_neuron_0/XM8/B" 482.578
+cap "inv_0/IN" "vamp_if_neuron_0/XM2/S2" 0.890835
+cap "vamp_if_neuron_0/m1_19344_14734#" "inv_0/OUT" 98.5964
+cap "vamp_if_neuron_0/XC4/C2" "vamp_if_neuron_0/XM8/B" -24.0013
+cap "vamp_if_neuron_0/XM8/G0" "inv_0/OUT" -1.00854
+cap "inv_0/OUT" "vamp_if_neuron_0/XM2/S2" 196.993
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/OUT" 204.201
+cap "vamp_if_neuron_0/XC4/C2" "vamp_if_neuron_0/XM2/S2" 2.37055
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM8/B" -8.75567
+cap "vamp_if_neuron_0/XM8/G0" "vamp_if_neuron_0/XM8/B" 34.5333
+cap "inv_0/VDD" "inv_0/VSS" 24.5638
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/VDD" 19.7996
+cap "inv_0/IN" "vamp_if_neuron_0/XM8/B" 5.98424
+cap "inv_0/IN" "inv_0/OUT" 7.30017
+cap "inv_0/IN" "inv_0/VSS" 7.04049
+cap "vamp_if_neuron_0/XC3/C2" "inv_0/VSS" 0.0046464
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/IN" 4.7035
+cap "vamp_if_neuron_0/XM8/B" "inv_0/OUT" 62.5294
+cap "vamp_if_neuron_0/XC4/C2" "vamp_if_neuron_0/XM8/B" 3.90778
+cap "vamp_if_neuron_0/XM8/B" "inv_0/VSS" 5.77677
+cap "vamp_if_neuron_0/XC3/C2" "inv_0/VDD" 0.00277288
+cap "inv_0/OUT" "inv_0/VSS" 63.1035
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/OUT" 48.2333
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/VSS" 12.7851
+cap "vamp_if_neuron_0/XM8/B" "vamp_if_neuron_0/XM8/G0" -0.538431
+cap "vamp_if_neuron_0/XM8/B" "inv_0/VDD" 51.7043
+cap "inv_0/VDD" "inv_0/OUT" 0.0992532
+cap "inv_0/OUT" "vamp_if_neuron_0/XM8/G0" -5.63315
+cap "inv_0/VSS" "vamp_if_neuron_0/XC4/C1" 3.62774
+cap "vamp_if_neuron_0/XM8/D0" "inv_0/OUT" 2.92714
+cap "vamp_if_neuron_0/XC4/C1" "inv_0/IN" 1.2333
+cap "vamp_if_neuron_0/XM8/D0" "vamp_if_neuron_0/XC4/C1" 16.7519
+cap "vamp_if_neuron_0/XM8/D0" "vamp_if_neuron_0/XC4/C2" -0.174438
+cap "vamp_if_neuron_0/XC4/C1" "inv_0/OUT" 7.23943
+cap "bmr_0/x1/VSS" "VGND" 408.746
+cap "VGND" "bmr_0/x1/XR8/B" 775.383
+cap "VGND" "bmr_0/x1/XR8/B" 258.922
+cap "VGND" "bmr_0/x1/XR8/B" 258.922
+cap "m1_8790_34908#" "vamp_if_neuron_0/VCC" 0.28632
+cap "VGND" "bmr_0/x1/XR5/B" 199.611
+cap "m1_8790_34908#" "bmr_0/x1/XR5/B" 130.306
+cap "bmr_0/x1/XR5/B" "m1_9590_40178#" 1.49399
+cap "m1_8790_34908#" "m1_9590_40178#" -12.6175
+cap "VGND" "vamp_if_neuron_0/m1_15032_16762#" 153.216
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XR5/B" 8.26196
+cap "m1_8790_34908#" "vamp_if_neuron_0/m1_15032_16762#" 146.681
+cap "vamp_if_neuron_0/XC1/C1" "VGND" 2.02103
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XC1/C2" -19.4297
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C1" -5.72401
+cap "vamp_if_neuron_0/m1_15032_16762#" "VGND" 37.8438
+cap "vamp_if_neuron_0/XC1/C1" "m1_9590_40178#" 1.58025
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XC1/C1" -4.0576
+cap "m1_8790_34908#" "vamp_if_neuron_0/VCC" 124.417
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_9590_40178#" 265.517
+cap "m1_8790_34908#" "m1_2766_39548#" -0.579147
+cap "m1_8790_34908#" "vamp_if_neuron_0/XC1/C2" 69.9141
+cap "vamp_if_neuron_0/XM10/S1" "VGND" 79.2583
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/m1_16298_16088#" 15.5025
+cap "vamp_if_neuron_0/m1_16298_16088#" "VGND" 171.196
+cap "VGND" "m1_9590_40178#" -45.955
+cap "vamp_if_neuron_0/XM10/S1" "m1_9590_40178#" 4.92978
+cap "m1_8790_34908#" "vamp_if_neuron_0/XC1/C1" 5.86749
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/m1_16298_16088#" -0.135213
+cap "m1_8790_34908#" "vamp_if_neuron_0/m1_15032_16762#" 25.2312
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/VCC" -95.5039
+cap "vamp_if_neuron_0/XM10/S1" "m1_8790_34908#" 44.1793
+cap "VGND" "vamp_if_neuron_0/VCC" 172.851
+cap "m1_8790_34908#" "vamp_if_neuron_0/m1_16298_16088#" 99.0403
+cap "m1_8790_34908#" "m1_9590_40178#" -34.1475
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C2" -17.4961
+cap "vamp_if_neuron_0/XC1/C2" "m1_9590_40178#" 2.81247
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 247.39
+cap "vamp_if_neuron_0/XM10/S1" "m1_8790_34908#" 344.628
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM10/S1" 0.240003
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/XM10/D1" 3.1617
+cap "vamp_if_neuron_0/XM9/S" "vamp_if_neuron_0/XM10/S1" 623.553
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XC1/C2" -0.131927
+cap "vamp_if_neuron_0/XM10/G1" "m1_8790_34908#" 8.31909
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/m1_19344_14734#" 0.540198
+cap "vamp_if_neuron_0/XC1/C1" "m1_8790_34908#" 35.8711
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/XM9/S" 1.46806
+cap "vamp_if_neuron_0/XC1/C2" "m1_8790_34908#" 317.791
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/XM10/S1" -3.1754
+cap "vamp_if_neuron_0/XM9/S" "vamp_if_neuron_0/XC1/C1" 12.3556
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C1" -57.2401
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C2" -167.938
+cap "vamp_if_neuron_0/XM10/D1" "m1_8790_34908#" 4.28393
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM9/S" 1.77186
+cap "vamp_if_neuron_0/m1_19344_14734#" "m1_8790_34908#" -2.63249
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/XC1/C2" -0.732678
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM10/S1" -0.161805
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM9/S" 3.76863
+cap "vamp_if_neuron_0/XM10/G1" "vamp_if_neuron_0/XM10/D1" 3.91828
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XC1/C1" -1.67537
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/XC1/C1" -9.54165
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/XM10/S1" -38.7897
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM10/S1" -4.29662
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XC1/C1" 16.0512
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XC1/C2" 317.791
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/VSS" -89.8915
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/D1" 15.5025
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM10/D1" 1.82575
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM10/S1" 1152.83
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/VSS" 93.1058
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XC1/C1" 35.8711
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM11/G" -3.61056
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM9/G" -37.2366
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/S1" -87.5628
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/VSS" 0.357815
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM11/G" 82.882
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM9/G" 127.06
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/VSS" -2.10893
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/VSS" 22.9638
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/D1" 19.077
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM10/S1" 42.8622
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM10/S1" 122.08
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/VSS" 1.58821
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/VSS" 44.834
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM10/D1" 11.7757
+cap "vamp_if_neuron_0/XM2/D0" "vamp_if_neuron_0/VSS" -0.326827
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM2/G0" 219.153
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM9/B" 0.0804369
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM2/D0" 2.95645
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/VSS" -207.011
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/VSS" 1.70054
+cap "vamp_if_neuron_0/XM2/G0" "ota_0/VSS" -0.100304
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XC1/C2" -12.3791
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/VSS" -5.64765
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XC1/C2" 302.679
+cap "vamp_if_neuron_0/XM10/D1" "vamp_if_neuron_0/XM2/G0" 0.00719002
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/VSS" -32.8368
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/VSS" 707.792
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM1/G" 1.08263
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/XM2/G0" 0.0872316
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM9/B" -14.0153
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM2/D0" 2.69926
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM8/B" 0.183547
+cap "vamp_if_neuron_0/XC2/C2" "vamp_if_neuron_0/VSS" 0.769914
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM2/G0" 151.059
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM11/G" 8.63389
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM2/G0" 7.92244
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM1/G" 0.175808
+cap "vamp_if_neuron_0/VSS" "ota_0/VCC" -0.0340031
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/VSS" 31.7426
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM2/G0" 174.463
+cap "ota_0/+" "vamp_if_neuron_0/VSS" -0.364295
+cap "ota_0/+" "vamp_if_neuron_0/XM2/G0" -4.254
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM2/G1" 75.4397
+cap "inv_0/VDD" "vamp_if_neuron_0/XM2/S2" 7.92742
+cap "vamp_if_neuron_0/XM8/B" "vamp_if_neuron_0/XM2/S2" 10.4635
+cap "vamp_if_neuron_0/XC4/C2" "vamp_if_neuron_0/XM2/S2" 1.30364
+cap "inv_0/IN" "vamp_if_neuron_0/XM2/S2" 14.9648
+cap "vamp_if_neuron_0/XM2/S2" "inv_0/OUT" 35.7743
+cap "inv_0/IN" "vamp_if_neuron_0/XM2/G1" 1.68917
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM2/S2" 497.479
+cap "vamp_if_neuron_0/XM2/G1" "vamp_if_neuron_0/XM2/S2" 25.381
+cap "ota_0/XM4/B" "inv_0/VDD" 0.142666
+cap "inv_0/VSS" "ota_0/XM4/B" -1.87264
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/OUT" 0.112021
+cap "inv_0/OUT" "vamp_if_neuron_0/XM8/B" 0.865595
+cap "vamp_if_neuron_0/XC3/C2" "inv_0/IN" 419.497
+cap "vamp_if_neuron_0/XC3/C2" "inv_0/VDD" 121.89
+cap "vamp_if_neuron_0/XC3/C2" "inv_0/VSS" 114.031
+cap "inv_0/IN" "inv_0/VDD" 21.1359
+cap "inv_0/VSS" "inv_0/IN" 302.717
+cap "vamp_if_neuron_0/XR3/R1" "inv_0/IN" 9.78054
+cap "ota_0/XM5/G0" "inv_0/IN" 3.12847
+cap "inv_0/OUT" "inv_0/IN" -1.52585
+cap "inv_0/VSS" "inv_0/VDD" 583.95
+cap "vamp_if_neuron_0/XR3/R1" "inv_0/VDD" 6.9907
+cap "inv_0/VSS" "vamp_if_neuron_0/XR3/R1" 0.466438
+cap "inv_0/VSS" "inv_0/OUT" 166.267
+cap "inv_0/OUT" "inv_0/VDD" 5.68434e-14
+cap "vamp_if_neuron_0/XC4/C2" "inv_0/IN" 0.0216875
+cap "inv_0/IN" "vamp_if_neuron_0/XM8/B" 0.216268
+cap "vamp_if_neuron_0/XR3/B" "vamp_if_neuron_0/XR3/R2" 178.707
+cap "inv_0/IN" "vamp_if_neuron_0/XC4/C1" 1.13495
+cap "vamp_if_neuron_0/XR3/B" "inv_0/IN" 0.282935
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XR3/R2" 61.9046
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XC3/C2" 237.073
+cap "vamp_if_neuron_0/XR3/B" "vamp_if_neuron_0/XC4/C1" 0.528997
+cap "inv_0/OUT" "vamp_if_neuron_0/XC4/C1" 1.45817
+cap "vamp_if_neuron_0/XR3/B" "inv_0/OUT" 0.186141
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XR3/R1" 2.14912
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XC4/C1" 89.2702
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XR3/B" 948.779
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XC4/C1" 19.2547
+cap "bmr_0/x1/VSS" "m1_2766_39548#" 6.06404
+cap "bmr_0/x1/VSS" "m1_2766_39548#" 495.644
+cap "m1_2766_39548#" "bmr_0/x1/XR8/B" 940.089
+cap "bmr_0/x1/XR8/B" "m1_2766_39548#" 354.279
+cap "bmr_0/x1/XR8/B" "m1_2766_39548#" 354.279
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_2766_39548#" 321.018
+cap "m1_8790_34908#" "bmr_0/x1/XR5/B" 187.582
+cap "bmr_0/x1/XR5/B" "m1_2766_39548#" 236.615
+cap "m1_9590_40178#" "bmr_0/x1/XR5/B" 1.49399
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XR5/B" 2.65443
+cap "m1_8790_34908#" "m1_2766_39548#" -2.00847
+cap "m1_8790_34908#" "m1_9590_40178#" -29.9029
+cap "m1_8790_34908#" "vamp_if_neuron_0/m1_15032_16762#" 94.7692
+cap "vamp_if_neuron_0/XM10/S1" "m1_2766_39548#" 117.052
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/m1_15032_16762#" -2.4841
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/m1_15032_16762#" -95.5039
+cap "vamp_if_neuron_0/XC1/C1" "m1_9590_40178#" 18.7301
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 247.39
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/m1_15032_16762#" -1.93237
+cap "vamp_if_neuron_0/XC1/C2" "m1_9590_40178#" 18.2002
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C1" -0.0801344
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_9590_40178#" 265.517
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XC1/C2" -69.5056
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C2" -20.9615
+cap "vamp_if_neuron_0/XC1/C1" "m1_2766_39548#" 45.0326
+cap "vamp_if_neuron_0/VCC" "m1_2766_39548#" 411.497
+cap "m1_9590_40178#" "m1_8790_34908#" -29.9029
+cap "m1_2766_39548#" "vamp_if_neuron_0/XC1/C2" 401.018
+cap "vamp_if_neuron_0/XM10/S1" "m1_9590_40178#" 4.92978
+cap "m1_2766_39548#" "vamp_if_neuron_0/m1_15032_16762#" 99.8084
+cap "m1_2766_39548#" "m1_9590_40178#" -26.3048
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C1" -7.50935
+cap "vamp_if_neuron_0/m1_16298_16088#" "m1_2766_39548#" 378.036
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C2" -12.8455
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/m1_16298_16088#" 30.9187
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/m1_19344_14734#" 894.458
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/XC1/C2" -202.369
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XC1/C2" 1407.91
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM10/G0" 186.819
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/G0" -31.0536
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/V_MEM_BUF" 246.258
+cap "vamp_if_neuron_0/XM10/S1" "vamp_if_neuron_0/V_MEM_BUF" -57.4948
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/V_MEM_BUF" -89.2666
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/V_MEM_BUF" -3.55271e-15
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XM11/G" 262.755
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/V_MEM_BUF" 74.4176
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM4/G" 29.6378
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM2/G0" 0.0525426
+cap "vamp_if_neuron_0/XM11/D" "vamp_if_neuron_0/XC1/C2" -75.5277
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/V_MEM_BUF" 861.44
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM9/G" -9.727
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XC1/C2" -62.5838
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/V_MEM_BUF" 277.205
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XC1/C1" -24.059
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/XM11/G" -0.254415
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XC1/C2" -174.514
+cap "vamp_if_neuron_0/XM11/D" "vamp_if_neuron_0/XM11/G" 383.137
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XC1/C2" 1274.61
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/XM9/G" 48.0946
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/V_MEM_BUF" -3.55271e-15
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM11/G" 265.885
+cap "vamp_if_neuron_0/XM1/G" "input_current_bank_0/XM19/S" 3.29721
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/XM11/G" 0.689385
+cap "vamp_if_neuron_0/XM2/D0" "vamp_if_neuron_0/VSS" -1.9183
+cap "vamp_if_neuron_0/XM2/D0" "vamp_if_neuron_0/XM2/G0" 3.10699
+cap "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/VSS" -0.958456
+cap "vamp_if_neuron_0/XM2/G0" "vamp_if_neuron_0/VSS" 0.599894
+cap "vamp_if_neuron_0/XM2/D0" "input_current_bank_0/XM19/S" 3.12659
+cap "vamp_if_neuron_0/XM11/G" "input_current_bank_0/XM19/S" -0.735901
+cap "vamp_if_neuron_0/XM2/D0" "ota_0/VSS" 0.0111627
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XM11/G" -5.68434e-14
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XM2/G0" 0.050922
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/VSS" -6.07545
+cap "vamp_if_neuron_0/XM1/G" "ota_0/VCC" 0.447151
+cap "ota_0/VCC" "vamp_if_neuron_0/XM2/G0" -0.0886732
+cap "vamp_if_neuron_0/XM1/G" "ota_0/XM4/G" 0.0219916
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XM2/G0" 0.0191953
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XM2/D0" 38.004
+cap "vamp_if_neuron_0/VSS" "input_current_bank_0/XM19/S" 963.692
+cap "input_current_bank_0/XM19/S" "input_current_bank_0/XM21/B" 5.64339
+cap "ota_0/XM5/D0" "vamp_if_neuron_0/XM2/G0" 0.830289
+cap "vamp_if_neuron_0/VSS" "ota_0/VCC" 25.8185
+cap "input_current_bank_0/XM21/B" "ota_0/VCC" 34.4833
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM1/G" -23.3985
+cap "vamp_if_neuron_0/XM2/D0" "ota_0/XM5/D0" 3.86599
+cap "vamp_if_neuron_0/VSS" "ota_0/XM4/G" 0.08245
+cap "vamp_if_neuron_0/XM2/D0" "vamp_if_neuron_0/XM2/G0" 2.91054
+cap "vamp_if_neuron_0/XM11/G" "input_current_bank_0/XM19/S" -0.0617142
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM2/G0" 57.5855
+cap "input_current_bank_0/XM19/S" "ota_0/VCC" 204.467
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XM1/G" 53.3203
+cap "input_current_bank_0/XM19/S" "ota_0/XM4/G" 9.40301
+cap "vamp_if_neuron_0/VSS" "vamp_if_neuron_0/XM2/D0" -18.3861
+cap "vamp_if_neuron_0/XM1/G" "ota_0/VCC" 1.25542
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XM2/G0" 248.83
+cap "input_current_bank_0/XM19/S" "ota_0/XM5/D0" 355.599
+cap "input_current_bank_0/XM19/S" "input_current_bank_0/XM21/B" 2.47174
+cap "vamp_if_neuron_0/XM2/D2" "ota_0/XM5/D0" 3.88969
+cap "ota_0/VCC" "input_current_bank_0/XM19/G" 0.0630922
+cap "ota_0/XM4/G" "inv_0/IN" 0.0738042
+cap "vamp_if_neuron_0/XR3/R1" "vamp_if_neuron_0/XC3/C1" 5.75529
+cap "ota_0/XM4/G" "input_current_bank_0/XM21/G" 40.5581
+cap "vamp_if_neuron_0/XC3/C1" "ota_0/XM5/D0" 7.27796
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XC1/C1" 0.00315015
+cap "vamp_if_neuron_0/XM2/G1" "inv_0/IN" 2.96744
+cap "input_current_bank_0/XM21/B" "vamp_if_neuron_0/XR3/R1" 0.339107
+cap "vamp_if_neuron_0/XR3/R1" "ota_0/XM5/D0" 3.12776
+cap "ota_0/XM4/G" "input_current_bank_0/XM19/S" 1005.99
+cap "ota_0/XM4/G" "input_current_bank_0/XM19/D" 0.0152397
+cap "input_current_bank_0/XM21/G" "ota_0/VCC" 34.9425
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XM2/G1" 769.097
+cap "input_current_bank_0/XM19/S" "ota_0/VCC" 592.942
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XC3/C1" 14.3156
+cap "ota_0/VCC" "input_current_bank_0/XM19/D" 0.0356787
+cap "ota_0/XM4/G" "input_current_bank_0/XM21/B" 40.0834
+cap "vamp_if_neuron_0/XM2/G1" "vamp_if_neuron_0/XC3/C1" 94.8026
+cap "input_current_bank_0/XM19/S" "inv_0/IN" 184.93
+cap "ota_0/VCC" "vamp_if_neuron_0/XC3/C1" 24.8932
+cap "ota_0/XM4/G" "input_current_bank_0/XM21/D" 1.42581
+cap "input_current_bank_0/XM21/B" "vamp_if_neuron_0/XM2/G1" 0.206653
+cap "vamp_if_neuron_0/XM2/G1" "ota_0/XM5/D0" 0.754778
+cap "input_current_bank_0/XM21/B" "ota_0/VCC" 135.756
+cap "input_current_bank_0/XM19/S" "input_current_bank_0/XM21/G" 0.856238
+cap "input_current_bank_0/XM21/D" "ota_0/VCC" 15.5128
+cap "vamp_if_neuron_0/XC3/C1" "inv_0/IN" 4.25522
+cap "vamp_if_neuron_0/XR3/R1" "inv_0/IN" 1.1853
+cap "ota_0/XM4/G" "input_current_bank_0/XM19/G" 0.505113
+cap "inv_0/IN" "ota_0/XM5/D0" 0.77399
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XC3/C1" 276.772
+cap "ota_0/XM4/G" "ota_0/VCC" 2.27374e-13
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XM1/G" 0.573768
+cap "input_current_bank_0/XM19/S" "vamp_if_neuron_0/XR3/R1" 185.828
+cap "inv_0/IN" "ota_0/XM5/G0" 3.1492
+cap "vamp_if_neuron_0/XC3/C1" "ota_0/XM4/B" 16.9002
+cap "input_current_bank_0/XM21/D" "ota_0/XM4/B" 7.9229
+cap "ota_0/XM4/G" "ota_0/XM4/B" 2.84217e-14
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/XM21/B" 4.61373
+cap "inv_0/IN" "input_current_bank_0/IN5" 13.5774
+cap "inv_0/IN" "vamp_if_neuron_0/XR3/R1" 29.7206
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XC3/C2" 56.9683
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XC3/C2" 111.44
+cap "ota_0/XM5/D0" "vamp_if_neuron_0/XR3/R1" 3.16333
+cap "input_current_bank_0/IN5" "ota_0/XM4/B" 4.31329
+cap "vamp_if_neuron_0/XR3/R1" "ota_0/XM4/B" 3.88284
+cap "inv_0/IN" "input_current_bank_0/XM21/B" 18.8232
+cap "input_current_bank_0/IN4" "ota_0/XM4/B" 0.0201783
+cap "vamp_if_neuron_0/XR3/R1" "vamp_if_neuron_0/XC3/C2" 556.479
+cap "inv_0/IN" "ota_0/XM5/D0" 1.53547
+cap "input_current_bank_0/XM21/B" "ota_0/XM4/B" 96.662
+cap "inv_0/IN" "ota_0/XM4/B" 67.1877
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XC3/C1" 1.95196
+cap "input_current_bank_0/XM20/G0" "ota_0/XM4/B" 17.4178
+cap "ota_0/XM4/G" "input_current_bank_0/XM21/D" 0.300931
+cap "inv_0/IN" "vamp_if_neuron_0/XC3/C2" 1409.2
+cap "vamp_if_neuron_0/XR3/R1" "inv_0/VDD" 7.80565
+cap "vamp_if_neuron_0/XR3/R1" "vamp_if_neuron_0/XC3/C1" 118.758
+cap "ota_0/XM4/G" "input_current_bank_0/IN5" 2.83194
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/XM21/D" 0.10527
+cap "ota_0/XM4/B" "vamp_if_neuron_0/XC3/C2" 473.422
+cap "ota_0/XM4/G" "vamp_if_neuron_0/XR3/R1" 8.78541e-05
+cap "ota_0/XM1/G" "vamp_if_neuron_0/XR3/R1" 0.00235757
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM21/B" 5.81298
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/IN5" 5.93103
+cap "inv_0/IN" "inv_0/VDD" 0.0360008
+cap "inv_0/IN" "vamp_if_neuron_0/XC3/C1" 122.323
+cap "ota_0/XM4/G" "inv_0/IN" 6.15157
+cap "ota_0/XM4/G" "input_current_bank_0/XM21/B" 5.42686
+cap "input_current_bank_0/IN4" "vamp_if_neuron_0/XR3/R2" 0.522618
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XR3/R1" 6.0483
+cap "vamp_if_neuron_0/XC3/C2" "vamp_if_neuron_0/XR3/R2" 434.471
+cap "input_current_bank_0/XM20/D0" "vamp_if_neuron_0/XR3/R2" 23.5457
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XC3/C1" 24.6644
+cap "input_current_bank_0/IN5" "vamp_if_neuron_0/XR3/R2" 2.0333
+cap "vamp_if_neuron_0/XC3/C2" "vamp_if_neuron_0/XR3/B" -18.43
+cap "vamp_if_neuron_0/XR3/B" "input_current_bank_0/XM20/D0" 6.02937
+cap "vamp_if_neuron_0/XR3/B" "vamp_if_neuron_0/XC3/C1" -5.81557e-05
+cap "vamp_if_neuron_0/XR3/B" "input_current_bank_0/IN5" 1.80714
+cap "vamp_if_neuron_0/XR3/B" "vamp_if_neuron_0/XR3/R2" 42.0911
+cap "vamp_if_neuron_0/XC3/C2" "vamp_if_neuron_0/XR3/R1" -10.5985
+cap "vamp_if_neuron_0/XR3/B" "input_current_bank_0/IN5" 2.6267
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XR3/B" 73.8248
+cap "vamp_if_neuron_0/XR3/R2" "vamp_if_neuron_0/XR3/B" 6.07119
+cap "vamp_if_neuron_0/XR3/R2" "ui_in[4]" 0.0737018
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 66.2134
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 5.11739
+cap "m1_8790_34908#" "bmr_0/x1/XR5/B" 187.582
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XR5/B" 2.65443
+cap "m1_9590_40178#" "m1_8790_34908#" -29.9029
+cap "m1_9590_40178#" "bmr_0/x1/XR5/B" 1.49399
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_8790_34908#" 94.7692
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C2" 22.6291
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_16298_16088#" 1.42235
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/m1_15032_16762#" -95.5039
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/V_MEM_BUF" 0.000507868
+cap "m1_9590_40178#" "m1_8790_34908#" -29.9029
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/G0" 0.182407
+cap "vamp_if_neuron_0/m1_16298_16088#" "m1_2766_39548#" 6.8032
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C1" 23.2878
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 247.39
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/B" -1.64614
+cap "m1_9590_40178#" "vamp_if_neuron_0/m1_15032_16762#" 265.517
+cap "m1_9590_40178#" "vamp_if_neuron_0/XM10/B" 4.92978
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XC1/C2" -1.96061
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/G0" -1.63994
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/XM10/G0" 1.76844
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/m1_16298_16088#" -7.01336
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/m1_16298_16088#" -0.420863
+cap "vamp_if_neuron_0/m1_19344_14734#" "vamp_if_neuron_0/m1_16298_16088#" 30.9187
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/XM10/B" -8.3414
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM10/B" -15.5823
+cap "vamp_if_neuron_0/m1_16298_16088#" "vamp_if_neuron_0/XM10/B" -14.364
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/G0" -9.0581
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM10/G0" 8.30854
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/V_MEM_BUF" -12.5488
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM11/D" -0.880419
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XC1/C2" -54.9504
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM4/B" -31.4159
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM7/G" 3.46945e-18
+cap "vamp_if_neuron_0/XM7/G" "vamp_if_neuron_0/V_MEM_BUF" 9.59115
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM4/B" 375.371
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM11/G" 29.6081
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM11/B" -1.85062
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM9/G" -1.49607
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XC1/C2" -6.72281
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XC1/C1" -8.88178e-16
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XC1/C2" 87.5691
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/V_MEM_BUF" 19.4518
+cap "vamp_if_neuron_0/XM11/D" "vamp_if_neuron_0/XM11/G" 2.42748
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM1/G" -0.124351
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XM11/G" 0.621098
+cap "vamp_if_neuron_0/XM11/D" "vamp_if_neuron_0/XC1/C2" -4.01075
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XM9/S" -0.420863
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM11/B" -1.86828
+cap "vamp_if_neuron_0/XM11/B" "vamp_if_neuron_0/XM1/G" -7.66208
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM15/B" 0.0603857
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XC3/C1" -3.69404e-19
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM4/B" -0.00949916
+cap "vamp_if_neuron_0/XM11/B" "vamp_if_neuron_0/XC1/C1" 8.88178e-16
+cap "input_current_bank_0/XM15/B" "vamp_if_neuron_0/XM1/G" 1.35344
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XM1/G" 1.42109e-14
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM1/G" 27.5613
+cap "vamp_if_neuron_0/XM4/G" "vamp_if_neuron_0/XC1/C1" 3.55271e-15
+cap "input_current_bank_0/XM21/G" "input_current_bank_0/XM15/S" 12.1783
+cap "input_current_bank_0/XM17/B" "ota_0/VCC" 18.2518
+cap "vamp_if_neuron_0/XM1/G" "input_current_bank_0/XM17/B" 0.0937207
+cap "input_current_bank_0/XM19/G" "input_current_bank_0/XM15/S" 4.22569
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM17/B" 2.64214e-16
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM15/S" 201.365
+cap "vamp_if_neuron_0/XM2/G0" "input_current_bank_0/XM15/S" 3.93045e-05
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM4/B" -10.6856
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM17/B" 5.67515
+cap "vamp_if_neuron_0/XM11/B" "input_current_bank_0/XM17/B" 22.0896
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM21/G" 0.0656723
+cap "ota_0/VCC" "input_current_bank_0/XM15/S" 11.3498
+cap "vamp_if_neuron_0/XM1/G" "input_current_bank_0/XM15/S" 68.5954
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM19/G" 0.569151
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/S" 23.5815
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM1/G" 1.22492e-16
+cap "vamp_if_neuron_0/XM11/G" "input_current_bank_0/XM15/S" 0.0478735
+cap "vamp_if_neuron_0/XC1/C1" "input_current_bank_0/XM15/S" 13.2781
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM15/S" 158.183
+cap "vamp_if_neuron_0/XM11/B" "input_current_bank_0/XM15/S" 118.378
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XM11/B" -5.49353
+cap "vamp_if_neuron_0/XM2/G0" "input_current_bank_0/XM17/B" 0.072962
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM17/B" 36
+cap "vamp_if_neuron_0/XM2/D0" "input_current_bank_0/XM15/S" -4.42529
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM11/B" -1.20688e-15
+cap "input_current_bank_0/XM17/B" "input_current_bank_0/XM15/S" 571.86
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XC3/C1" 15.3996
+cap "input_current_bank_0/XM21/G" "vamp_if_neuron_0/XM4/G" 0.550355
+cap "ota_0/XM5/D0" "input_current_bank_0/XM21/G" 0.174072
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM19/G" 659.748
+cap "input_current_bank_0/XM17/B" "input_current_bank_0/XM21/G" -0.487643
+cap "ota_0/VCC" "input_current_bank_0/XM15/S" 5.72536
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM19/G" 0.122979
+cap "input_current_bank_0/XM17/B" "vamp_if_neuron_0/XC3/C1" 11.2842
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM19/G" 0.550355
+cap "input_current_bank_0/XM17/B" "ota_0/VCC" 74.375
+cap "input_current_bank_0/XM21/G" "vamp_if_neuron_0/XC3/C1" 32.7697
+cap "input_current_bank_0/XM21/D" "vamp_if_neuron_0/XC3/C1" 10.2398
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM19/D" 86.7679
+cap "ota_0/VCC" "input_current_bank_0/XM21/G" 57.0452
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/XM21/G" 0.0201533
+cap "ota_0/XM5/B" "input_current_bank_0/XM21/G" 0.761131
+cap "ota_0/VCC" "input_current_bank_0/XM21/D" 15.3413
+cap "input_current_bank_0/XM19/G" "vamp_if_neuron_0/XC3/C1" 14.9259
+cap "ota_0/VCC" "input_current_bank_0/XM19/G" 0.00581004
+cap "input_current_bank_0/XM17/B" "input_current_bank_0/XM15/S" 397.329
+cap "input_current_bank_0/XM21/G" "ota_0/XM4/G" 31.8434
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM21/G" 1466.49
+cap "input_current_bank_0/XM21/D" "input_current_bank_0/XM15/S" 203.775
+cap "input_current_bank_0/XM19/D" "vamp_if_neuron_0/XC3/C1" 5.01771
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM21/G" 0.241732
+cap "input_current_bank_0/XM19/D" "vamp_if_neuron_0/XC3/C2" 5.63964
+cap "input_current_bank_0/IN5" "vamp_if_neuron_0/XC3/C2" 1161.01
+cap "input_current_bank_0/XM16/G" "ota_0/XM4/B" 18.5587
+cap "input_current_bank_0/XM17/B" "input_current_bank_0/XM21/D" -2.27374e-13
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/XM16/G" 0.092119
+cap "input_current_bank_0/XM17/B" "vamp_if_neuron_0/XC3/C2" 647.771
+cap "ota_0/XM5/B" "input_current_bank_0/IN5" 0.925768
+cap "input_current_bank_0/IN5" "ota_0/XM4/B" 7.93186
+cap "input_current_bank_0/XM17/B" "vamp_if_neuron_0/XC3/C1" 11.6523
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/IN5" 6.77588
+cap "ota_0/XM5/B" "input_current_bank_0/XM17/B" 5.81298
+cap "input_current_bank_0/XM17/B" "ota_0/XM4/B" 40.0509
+cap "input_current_bank_0/XM21/D" "vamp_if_neuron_0/XC3/C2" 201.727
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/XM17/B" 2.01159
+cap "input_current_bank_0/IN4" "vamp_if_neuron_0/XC3/C2" 519.429
+cap "input_current_bank_0/XM21/D" "vamp_if_neuron_0/XC3/C1" 4.8791
+cap "input_current_bank_0/XM16/G" "ota_0/OUT" 1.10884
+cap "input_current_bank_0/XM17/B" "input_current_bank_0/IN5" -1.13687e-13
+cap "input_current_bank_0/XM21/D" "ota_0/XM4/B" 7.87654
+cap "input_current_bank_0/IN5" "ota_0/XM4/G" 2.8574
+cap "input_current_bank_0/IN5" "ota_0/OUT" 13.9261
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM16/G" 504.04
+cap "input_current_bank_0/IN4" "input_current_bank_0/XM16/G" 0.144022
+cap "input_current_bank_0/IN5" "input_current_bank_0/XM21/D" 5.68434e-14
+cap "input_current_bank_0/XM17/B" "ota_0/OUT" 7.11234
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM16/G" 30.4086
+cap "vamp_if_neuron_0/XR3/B" "input_current_bank_0/IN5" 2.68881
+cap "input_current_bank_0/XM16/B" "input_current_bank_0/IN4" 5.73654
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN4" 465.7
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM16/B" 419.413
+cap "vamp_if_neuron_0/XR3/R2" "input_current_bank_0/IN5" 4.3226
+cap "vamp_if_neuron_0/XR3/R1" "input_current_bank_0/IN5" 0.731144
+cap "input_current_bank_0/XM16/B" "input_current_bank_0/IN5" 10.2821
+cap "input_current_bank_0/IN4" "input_current_bank_0/IN5" -16.947
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM16/B" -2.48179e-15
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN5" 1028.55
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/IN4" 20.4776
+cap "vamp_if_neuron_0/XR3/B" "input_current_bank_0/XM16/B" 6.02937
+cap "input_current_bank_0/IN3" "input_current_bank_0/IN5" -0.166667
+cap "input_current_bank_0/XM16/B" "vamp_if_neuron_0/XR3/R2" 15.1462
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/IN5" 42.9384
+cap "ui_in[4]" "vamp_if_neuron_0/XR3/R2" 0.0737018
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 66.2134
+cap "bmr_0/x1/VSS" "m1_2766_39548#" 5.11739
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_9388_33292#" 13.4388
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XM3/G" 33.9934
+cap "m1_9590_40178#" "bmr_0/x1/XR5/B" 1.49399
+cap "bmr_0/x1/XR5/B" "m1_9388_33292#" 9.92845
+cap "bmr_0/x1/XR5/B" "bmr_0/x1/XM3/G" 187.582
+cap "m1_9590_40178#" "bmr_0/x1/XM3/G" -10.0816
+cap "vamp_if_neuron_0/m1_15032_16762#" "bmr_0/x1/XR5/B" 5.97343
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C1" 16.6009
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/XC1/C2" 277.661
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C2" -16.2105
+cap "bmr_0/x1/XM3/G" "m1_9590_40178#" -10.0816
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/XM10/G0" 165.227
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/VCC" -43.9648
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/XM10/G0" 103.174
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/m1_15032_16762#" -23.2462
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 247.39
+cap "vamp_if_neuron_0/XM10/G0" "m1_9590_40178#" -14.5269
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/XC1/C2" -26.0336
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/XC1/C1" 26.818
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C1" -4.43984
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/XC1/C2" -3.71571
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/XM10/B" -11.3548
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C2" 16.1313
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/VCC" 294.369
+cap "vamp_if_neuron_0/XM10/B" "m1_9590_40178#" 4.92978
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM10/G0" 50.2976
+cap "vamp_if_neuron_0/m1_15032_16762#" "m1_9590_40178#" 489.065
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/XC1/C1" -0.0473787
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/m1_15032_16762#" -12.5864
+cap "vamp_if_neuron_0/XM9/G" "vamp_if_neuron_0/XM10/G0" 0.0562216
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XC1/C2" -0.919941
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/G0" 724.525
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/XC1/C2" -107.362
+cap "vamp_if_neuron_0/XM9/S" "vamp_if_neuron_0/XM10/G0" 0.0112269
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/m1_15032_16762#" -18.4554
+cap "vamp_if_neuron_0/XM10/G0" "vamp_if_neuron_0/m1_15032_16762#" 76.4696
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/m1_15032_16762#" -33.385
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM10/G0" 41.6339
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/V_MEM_BUF" -1.82599
+cap "vamp_if_neuron_0/XM10/B" "vamp_if_neuron_0/XM10/G0" 535.449
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/V_MEM_BUF" -3.55271e-15
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM4/B" 13.0501
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XM4/B" -5.91085
+cap "vamp_if_neuron_0/XM7/G" "vamp_if_neuron_0/XM4/B" -0.112975
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM4/B" -2.29937
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/XM11/D" -1.47662e-15
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM1/G" 15.9076
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM7/G" 0.0547307
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/V_MEM_BUF" 1.96096
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM7/G" 2.27374e-13
+cap "vamp_if_neuron_0/XC1/C1" "vamp_if_neuron_0/XM7/G" -3.55271e-15
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XM1/G" -0.00111635
+cap "vamp_if_neuron_0/XM1/G" "vamp_if_neuron_0/XC3/C1" -0.0145691
+cap "vamp_if_neuron_0/XM9/S" "vamp_if_neuron_0/XM7/G" -6.93889e-18
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM4/D" 7.33756
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM1/G" 6.06973
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM1/G" 0.000469658
+cap "vamp_if_neuron_0/XM4/B" "vamp_if_neuron_0/XM7/G" 4.54747e-13
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM7/G" -0.474241
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM7/G" 2.851
+cap "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM7/G" -1.04083e-17
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM15/S" 5.29265
+cap "vamp_if_neuron_0/XM4/G" "input_current_bank_0/XM15/B" 0.201406
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM15/S" 101.311
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM15/B" 676.494
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM15/B" 3.76501
+cap "vamp_if_neuron_0/XC1/C1" "input_current_bank_0/XM15/S" 19.1248
+cap "input_current_bank_0/XM19/G" "vamp_if_neuron_0/XM4/G" 0.00379437
+cap "input_current_bank_0/XM19/G" "input_current_bank_0/XM15/S" 4.87382
+cap "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM4/B" -1.16175
+cap "vamp_if_neuron_0/XM4/D" "input_current_bank_0/XM15/S" 44.8192
+cap "vamp_if_neuron_0/XM1/G" "input_current_bank_0/XM15/S" 45.3443
+cap "input_current_bank_0/XM15/G" "input_current_bank_0/XM15/S" 2.6969
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM15/G" 0.51255
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XM4/B" 404.019
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/S" 39.2964
+cap "vamp_if_neuron_0/XM7/G" "vamp_if_neuron_0/XM4/B" 1.13687e-13
+cap "vamp_if_neuron_0/XM4/B" "input_current_bank_0/XM15/B" 50.3737
+cap "vamp_if_neuron_0/XM7/G" "vamp_if_neuron_0/XC3/C1" -1.20113e-15
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/B" 2.27968e-16
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM17/G" 9.13042
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM17/G" 0.014917
+cap "input_current_bank_0/XM19/D" "vamp_if_neuron_0/XC3/C1" 5.40582
+cap "vamp_if_neuron_0/XM7/D" "input_current_bank_0/XM17/G" 0.282674
+cap "input_current_bank_0/XM15/G" "vamp_if_neuron_0/XC3/C1" 26.7943
+cap "input_current_bank_0/XM19/D" "input_current_bank_0/XM15/S" 131.11
+cap "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XC3/C1" 19.0214
+cap "input_current_bank_0/XM15/G" "input_current_bank_0/XM15/S" 512.575
+cap "input_current_bank_0/XM15/D" "vamp_if_neuron_0/XC3/C1" 3.24349
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM17/G" 0.51255
+cap "input_current_bank_0/XM15/G" "vamp_if_neuron_0/XM7/D" 0.158683
+cap "input_current_bank_0/XM17/D" "vamp_if_neuron_0/XC3/C1" 10.4235
+cap "input_current_bank_0/XM15/D" "input_current_bank_0/XM15/S" 34.5704
+cap "input_current_bank_0/XM15/B" "vamp_if_neuron_0/XC3/C1" 23.0313
+cap "input_current_bank_0/XM15/B" "input_current_bank_0/XM15/G" -0.507599
+cap "input_current_bank_0/XM19/G" "vamp_if_neuron_0/XC3/C1" 14.9259
+cap "input_current_bank_0/XM17/D" "input_current_bank_0/XM15/S" 234.028
+cap "input_current_bank_0/XM15/B" "input_current_bank_0/XM15/S" 317.148
+cap "input_current_bank_0/XM17/G" "vamp_if_neuron_0/XC3/C1" 46.8545
+cap "input_current_bank_0/XM19/G" "input_current_bank_0/XM15/S" 735.953
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM15/G" 0.514295
+cap "vamp_if_neuron_0/XM7/D" "input_current_bank_0/XM19/G" 0.144941
+cap "input_current_bank_0/XM15/S" "input_current_bank_0/XM17/G" 1386.16
+cap "input_current_bank_0/XM17/D" "vamp_if_neuron_0/XC3/C1" 4.8791
+cap "input_current_bank_0/XM14/G" "input_current_bank_0/IN2" 0.126527
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN2" 361.86
+cap "input_current_bank_0/XM19/D" "vamp_if_neuron_0/XC3/C2" 111.5
+cap "input_current_bank_0/IN3" "vamp_if_neuron_0/XC3/C2" 1139.07
+cap "input_current_bank_0/XM14/G" "input_current_bank_0/IN3" 0.123439
+cap "input_current_bank_0/XM14/G" "vamp_if_neuron_0/XC3/C1" 50.7779
+cap "input_current_bank_0/XM15/B" "vamp_if_neuron_0/XC3/C2" 615.223
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM21/D" 41.524
+cap "input_current_bank_0/XM19/D" "vamp_if_neuron_0/XC3/C1" 4.8791
+cap "input_current_bank_0/XM17/D" "vamp_if_neuron_0/XC3/C2" 85.0465
+cap "input_current_bank_0/XM15/B" "vamp_if_neuron_0/XC3/C1" 38.3472
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM21/D" 4.8791
+cap "input_current_bank_0/XM14/G" "input_current_bank_0/IN4" 0.0120815
+cap "input_current_bank_0/IN4" "vamp_if_neuron_0/XC3/C2" 620.343
+cap "input_current_bank_0/XM14/G" "vamp_if_neuron_0/XC3/C2" 959.709
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/IN4" 22.4608
+cap "input_current_bank_0/IN3" "input_current_bank_0/XM14/B" 10.5323
+cap "input_current_bank_0/IN2" "input_current_bank_0/IN4" 0.0240261
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM14/B" 423.624
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN3" 1007.62
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/IN2" 10.587
+cap "input_current_bank_0/IN4" "input_current_bank_0/XM14/B" 4.33234
+cap "input_current_bank_0/IN3" "input_current_bank_0/IN4" -15.9545
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM14/B" -3.64597e-16
+cap "input_current_bank_0/IN2" "input_current_bank_0/XM14/B" 3.86636
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN4" 541.244
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/IN3" 42.9384
+cap "input_current_bank_0/IN2" "input_current_bank_0/IN3" -15.8968
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN2" 325.462
+cap "input_current_bank_0/IN3" "input_current_bank_0/IN5" -0.158944
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 62.8134
+cap "VDPWR" "bmr_0/x1/VSS" -0.0911428
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 4.34437
+cap "bmr_0/rst_n" "bmr_0/x1/VSS" -3.87633
+cap "bmr_0/VBN_REF10N" "bmr_0/x1/VSS" 2.19143
+cap "bmr_0/x1/VSS" "VDPWR" 6.16709
+cap "VDPWR" "bmr_0/x1/XR8/B" 7.39556
+cap "bmr_0/x1/XR3/R2" "bmr_0/x1/XM5/S" 0.490706
+cap "bmr_0/x1/XR1/R2" "VDPWR" 13.1895
+cap "bmr_0/x1/XR1/R2" "bmr_0/x1/XM5/S" 27.3064
+cap "bmr_0/x1/XR8/B" "VDPWR" 0.175665
+cap "bmr_0/x1/XM3/G" "bmr_0/x1/XR3/R2" 0.490706
+cap "bmr_0/x1/XR1/R2" "vamp_if_neuron_0/VCC" 2.40292
+cap "bmr_0/x1/XM3/G" "bmr_0/x1/XR1/R2" 37.1123
+cap "bmr_0/x1/XM3/G" "m1_9590_40178#" 0.180459
+cap "bmr_0/x1/XR5/B" "m1_9590_40178#" 1.58495
+cap "bmr_0/x1/XM3/G" "bmr_0/VBP_REF10N" 0.903976
+cap "bmr_0/x1/XR5/B" "bmr_0/VBP_REF10N" 9.51232
+cap "vamp_if_neuron_0/V_MEM_BUF" "bmr_0/VBP_REF10N" 1.42928
+cap "bmr_0/x1/XR5/B" "vamp_if_neuron_0/VCC" 0.708537
+cap "bmr_0/x1/XM3/G" "bmr_0/x1/XR5/B" 265.877
+cap "bmr_0/x1/XR5/B" "vamp_if_neuron_0/V_MEM_BUF" 0.551522
+cap "vamp_if_neuron_0/VCC" "bmr_0/VBP_REF10N" 0.708651
+cap "vamp_if_neuron_0/XM10/D0" "vamp_if_neuron_0/m1_15032_16762#" -23.2462
+cap "vamp_if_neuron_0/XM10/D0" "bmr_0/x1/XM3/G" 0.723593
+cap "vamp_if_neuron_0/XM10/D0" "vamp_if_neuron_0/XC1/C2" -4.54382
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C1" 2.54503
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C2" 6.65445
+cap "vamp_if_neuron_0/XM10/D0" "m1_9590_40178#" 351.421
+cap "m1_9590_40178#" "vamp_if_neuron_0/VCC" 252.319
+cap "bmr_0/VBP_REF10N" "vamp_if_neuron_0/XC1/C2" 0.583808
+cap "vamp_if_neuron_0/XM10/D0" "vamp_if_neuron_0/VCC" -12.3011
+cap "vamp_if_neuron_0/XM10/D0" "bmr_0/x1/XR1/B" 2.01203
+cap "bmr_0/VBP_REF10N" "vamp_if_neuron_0/XC1/C1" 0.202108
+cap "m1_9590_40178#" "vamp_if_neuron_0/XC1/C2" 3.74996
+cap "vamp_if_neuron_0/XM10/D0" "bmr_0/VBP_REF10N" 52.5983
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM10/D0" -29.8218
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/XM10/D0" -15.3837
+cap "vamp_if_neuron_0/m1_15032_16762#" "vamp_if_neuron_0/XM10/D0" -17.8817
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/VCC" 8.37117
+cap "vamp_if_neuron_0/XM10/D0" "vamp_if_neuron_0/m1_17680_17664#" 38.6037
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/m1_17680_17664#" 2.11304
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM10/D0" -2.27374e-13
+cap "vamp_if_neuron_0/XC1/C1" "input_current_bank_0/XM13/S" -1.13687e-13
+cap "vamp_if_neuron_0/XM7/B" "input_current_bank_0/XM13/S" 0.530389
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM13/S" 1.42109e-14
+cap "vamp_if_neuron_0/XM7/B" "input_current_bank_0/XM15/B" 50.2817
+cap "vamp_if_neuron_0/XM7/B" "input_current_bank_0/XM13/S" 80.9817
+cap "input_current_bank_0/XM13/S" "vamp_if_neuron_0/XC1/C1" 2.09007
+cap "input_current_bank_0/XM15/B" "input_current_bank_0/XM13/S" 190.113
+cap "vamp_if_neuron_0/XM7/B" "vamp_if_neuron_0/XC3/C1" 4.27791e-16
+cap "input_current_bank_0/XM15/G" "input_current_bank_0/XM13/S" 4.80498
+cap "input_current_bank_0/XM15/B" "vamp_if_neuron_0/XC3/C1" 25.7102
+cap "input_current_bank_0/XM13/S" "vamp_if_neuron_0/XC3/C1" 40.9955
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM15/B" 0.709402
+cap "vamp_if_neuron_0/XM7/G" "input_current_bank_0/XM13/S" 18.3456
+cap "input_current_bank_0/XM15/G" "input_current_bank_0/XM13/S" 648.234
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/D" 6.83383
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM13/S" 23.9384
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/G" 26.0531
+cap "input_current_bank_0/XM15/B" "input_current_bank_0/XM13/S" 201.25
+cap "input_current_bank_0/XM15/B" "input_current_bank_0/XM15/G" -2.1416
+cap "input_current_bank_0/XM15/G" "vamp_if_neuron_0/XM7/D" 0.193029
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/B" 138.474
+cap "input_current_bank_0/XM15/D" "input_current_bank_0/XM13/S" 59.5075
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM14/G" 111.66
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM15/B" 223.063
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/XM15/D" 38.8462
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM14/G" 54.3554
+cap "vamp_if_neuron_0/XC3/C2" "input_current_bank_0/IN2" 606.6
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/B" 120.648
+cap "vamp_if_neuron_0/XC3/C1" "input_current_bank_0/XM15/D" 5.82518
+cap "input_current_bank_0/XM14/B" "vamp_if_neuron_0/XC3/C2" 98.9869
+cap "input_current_bank_0/XM14/B" "input_current_bank_0/IN2" 6.89697
+cap "input_current_bank_0/IN2" "vamp_if_neuron_0/XC3/C2" 536.134
+cap "input_current_bank_0/XM14/B" "vamp_if_neuron_0/XC3/C1" 42.6805
+cap "input_current_bank_0/IN2" "vamp_if_neuron_0/XC3/C1" 23.1944
+cap "m1_2766_39548#" "bmr_0/rst_n" 2.79819
+cap "bmr_0/x1/VCC" "m1_2766_39548#" 19.9468
+cap "m1_2766_39548#" "bmr_0/x1/VSS" 18.3592
+cap "bmr_0/x1/VCC" "bmr_0/rst_n" 0.482745
+cap "bmr_0/x1/VCC" "VDPWR" 3.55271e-15
+cap "VDPWR" "bmr_0/VBN_REF10N" 210.184
+cap "bmr_0/x1/VSS" "m1_2766_39548#" 1.41345
+cap "bmr_0/x1/VSS" "VDPWR" 151.735
+cap "m1_2766_39548#" "bmr_0/x1/VCC" 1.58794
+cap "bmr_0/x1/VCC" "VDPWR" 111.335
+cap "bmr_0/rst_n" "bmr_0/VBN_REF10N" 4.57833
+cap "bmr_0/x1/VSS" "bmr_0/rst_n" -3.86916
+cap "bmr_0/x1/VCC" "bmr_0/rst_n" 10.3289
+cap "bmr_0/rst_n" "VDPWR" 12.316
+cap "bmr_0/x1/VSS" "bmr_0/VBN_REF10N" 2.18225
+cap "bmr_0/x1/VCC" "bmr_0/VBN_REF10N" -0.0412352
+cap "bmr_0/x1/VSS" "VDPWR" 1157.78
+cap "bmr_0/x1/VCC" "VDPWR" 173.682
+cap "bmr_0/x1/VSS" "bmr_0/x1/VCC" -0.00744638
+cap "bmr_0/VBN_REF10N" "VDPWR" 236.586
+cap "VDPWR" "bmr_0/rst_n" 29.9697
+cap "bmr_0/x1/VSS" "bmr_0/rst_n" 0.637245
+cap "VDPWR" "bmr_0/x1/XM2/G" 69.0112
+cap "VDPWR" "bmr_0/x1/XM5/B" 93.7708
+cap "VDPWR" "bmr_0/x1/XM5/G" 55.1086
+cap "VDPWR" "bmr_0/x1/XR7/R2" 6.66073
+cap "VDPWR" "bmr_0/x1/XR5/R2" 3.22607
+cap "VDPWR" "bmr_0/x1/XM5/S" 538.542
+cap "VDPWR" "bmr_0/x1/XR8/B" 660.315
+cap "bmr_0/x1/XM5/S" "VDPWR" 570.43
+cap "VDPWR" "bmr_0/x1/XR3/R2" 6.6807
+cap "bmr_0/x1/XR1/R2" "VDPWR" 17.8962
+cap "VDPWR" "bmr_0/x1/XR5/R2" 3.43466
+cap "bmr_0/x1/XR8/B" "VDPWR" 55.2744
+cap "bmr_0/x1/XM5/B" "VDPWR" 178.913
+cap "bmr_0/VBP_REF10N" "VDPWR" 356.409
+cap "vamp_if_neuron_0/VCC" "bmr_0/x1/XR1/R2" 1.86225
+cap "bmr_0/VBP_REF10N" "m1_9590_40178#" 16.5008
+cap "m1_9590_40178#" "bmr_0/x1/XM3/G" 0.858153
+cap "m1_9590_40178#" "bmr_0/x1/XR5/B" 1.0108
+cap "m1_9590_40178#" "bmr_0/x1/XM1/B" 0.596817
+cap "bmr_0/VBP_REF10N" "vamp_if_neuron_0/VCC" 191.514
+cap "vamp_if_neuron_0/VCC" "bmr_0/x1/XM3/G" 189.061
+cap "vamp_if_neuron_0/VCC" "bmr_0/x1/XR5/B" 55.81
+cap "bmr_0/VBP_REF10N" "bmr_0/x1/XM3/G" 73.0505
+cap "bmr_0/VBP_REF10N" "bmr_0/x1/XR5/B" 7.57782
+cap "vamp_if_neuron_0/VCC" "bmr_0/x1/XM1/B" 63.6735
+cap "bmr_0/x1/XM3/G" "bmr_0/x1/XR5/B" 20.6937
+cap "bmr_0/VBP_REF10N" "bmr_0/x1/XM1/B" 0.0101091
+cap "bmr_0/VBP_REF10N" "vamp_if_neuron_0/VCC" 0.42184
+cap "vamp_if_neuron_0/XC1/C2" "vamp_if_neuron_0/VCC" 6.98284
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/V_MEM_BUF" 10.218
+cap "vamp_if_neuron_0/VCC" "m1_9590_40178#" 85.8239
+cap "bmr_0/VBP_REF10N" "m1_9590_40178#" 16.5008
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/V_MEM_BUF" 4.65354
+cap "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XC1/C2" 9.61275
+cap "input_current_bank_0/XM13/S" "input_current_bank_0/XM13/B" -4.54747e-13
+cap "input_current_bank_0/XM13/S" "vamp_if_neuron_0/XM7/D" 20.3203
+cap "vamp_if_neuron_0/XM7/D" "input_current_bank_0/XM13/B" 31.445
+cap "input_current_bank_0/X0.5/B" "input_current_bank_0/IN1" 7.62196
+cap "m1_2766_39548#" "bmr_0/x1/VCC" 42.0986
+cap "m1_2766_39548#" "bmr_0/VBP_REF10N" 20.8666
+cap "m1_2766_39548#" "bmr_0/rst_n" 2.46689
+cap "bmr_0/rst_n" "bmr_0/VSS" -2.22045e-16
+cap "bmr_0/x1/VCC" "bmr_0/rst_n" 0.874897
+cap "bmr_0/VSS" "bmr_0/rst_n" -0.835443
+cap "bmr_0/VBP_REF10N" "bmr_0/rst_n" 3.63621
+cap "bmr_0/rst_n" "bmr_0/x1/VCC" 2.57686
+cap "bmr_0/VBP_REF10N" "m1_2766_39548#" 6.16814
+cap "bmr_0/VBP_REF10N" "bmr_0/VSS" 66.7165
+cap "m1_2766_39548#" "bmr_0/x1/VCC" 4.16728
+cap "bmr_0/VSS" "bmr_0/x1/VCC" -23.9516
+cap "bmr_0/VBN_REF10N" "bmr_0/x1/VCC" -0.0352282
+cap "VDPWR" "bmr_0/x1/VCC" 1.23273
+cap "bmr_0/VBP_REF10N" "bmr_0/x1/VCC" 115.208
+cap "bmr_0/VSS" "bmr_0/x1/VCC" 0.396927
+cap "VDPWR" "bmr_0/x1/VCC" 1.19145
+cap "bmr_0/rst_n" "bmr_0/VSS" 0.784203
+cap "bmr_0/x1/XM5/B" "VDPWR" 1.20426
+cap "bmr_0/VBP_REF10N" "VDPWR" 0.000766895
+cap "VDPWR" "bmr_0/x1/XM5/B" 1.44254
+cap "m1_9590_40178#" "bmr_0/x1/XM1/B" 1.1425
+cap "m1_9590_40178#" "bmr_0/VBP_REF10N" 47.3188
+cap "m1_9590_40178#" "bmr_0/VBP_REF10N" 47.3188
+cap "input_current_bank_0/X0.5/B" "input_current_bank_0/IN1" 3.24579
+cap "bmr_0/VBN_REF1N" "bmr_0/VBP_REF10N" 53.2724
+cap "bmr_0/VBN_REF1N" "bmr_0/VSS" 12.1025
+cap "bmr_0/VBN_REF1N" "bmr_0/x1/VCC" 18.9473
+cap "bmr_0/VBP_REF10N" "bmr_0/VSS" 803.827
+cap "bmr_0/VBN_REF1N" "bmr_0/VSS" 16.6188
+cap "bmr_0/rst_n" "bmr_0/VBP_REF10N" 10.9616
+cap "bmr_0/rst_n" "bmr_0/VSS" 1.15811
+cap "bmr_0/x1/VCC" "bmr_0/VSS" -6.95944
+cap "bmr_0/VBP_REF10N" "bmr_0/VBN_REF1N" 23.97
+cap "bmr_0/VSS" "bmr_0/VBN_REF1N" 1.13687e-13
+cap "bmr_0/VBP_REF1N" "bmr_0/XM3/B" 13.228
+cap "bmr_0/XM3/G" "bmr_0/VBP_REF1N" 8.50904
+cap "bmr_0/VBP_REF1N" "bmr_0/XM3/G" 8.11942
+cap "bmr_0/XM3/S" "bmr_0/VBP_REF1N" 14.6492
+cap "bmr_0/VBN_REF1N" "bmr_0/VCC" 8.85258
+cap "bmr_0/VCC" "rst_n" 10.002
+cap "bmr_0/VBN_REF1N" "VGND" 0.00730065
+cap "bmr_0/VBN_REF1N" "bmr_0/VSS" 7.51348
+cap "bmr_0/VBN_REF1N" "bmr_0/VBP_REF10N" 41.4467
+cap "bmr_0/VBP_REF10N" "rst_n" 14.4501
+cap "bmr_0/VBN_REF1N" "rst_n" 0.588894
+cap "rst_n" "bmr_0/VBP_REF10N" 8.90601
+cap "bmr_0/VCC" "bmr_0/VBP_REF10N" 18.2408
+cap "rst_n" "bmr_0/VSS" 1.06896
+cap "bmr_0/VCC" "bmr_0/VSS" 0.0079671
+cap "VDPWR" "bmr_0/VBP_REF10N" 0.0342559
+cap "bmr_0/VBN_REF1N" "bmr_0/VBP_REF10N" 16.0169
+cap "bmr_0/VCC" "rst_n" 2.40832
+cap "bmr_0/VBN_REF1N" "bmr_0/VSS" 14.2432
+cap "bmr_0/VCC" "bmr_0/VBN_REF1N" 4.00628
+cap "bmr_0/VBP_REF1N" "bmr_0/XM4/B" 0.00915191
+cap "bmr_0/VBP_REF1N" "bmr_0/XM3/B" 0.572694
+cap "bmr_0/VBP_REF1N" "VDPWR" 0.297055
+cap "bmr_0/VBP_REF1N" "bmr_0/XM3/G" 3.83484
+cap "bmr_0/XM4/B" "bmr_0/VBP_REF1N" 2.6123
+cap "bmr_0/XM4/D" "bmr_0/VBP_REF1N" 2.15624
+cap "bmr_0/XM3/S" "bmr_0/VBP_REF1N" 1.23084
+cap "bmr_0/XM3/G" "bmr_0/VBP_REF1N" 3.6632
+cap "input_current_bank_0/V_STIM" "m1_9590_40178#" 429.555
+cap "input_current_bank_0/X0.5/B" "m1_9590_40178#" 79.3826
+cap "input_current_bank_0/VBP_REF1N" "input_current_bank_0/V_STIM" 63.7782
+cap "input_current_bank_0/VBP_REF1N" "input_current_bank_0/VCC" 470.21
+cap "input_current_bank_0/VCC" "input_current_bank_0/VBP_REF1N" 229.489
+cap "input_current_bank_0/VBP_REF1N" "input_current_bank_0/VCC" 0.059769
+cap "bmr_0/VCC" "bmr_0/VBN_REF1N" 0.503654
+cap "rst_n" "bmr_0/VCC" 8.99899
+cap "bmr_0/VCC" "VDPWR" 50.6832
+cap "bmr_0/VCC" "bmr_0/VBP_REF10N" 15.7209
+cap "bmr_0/VCC" "bmr_0/VBN_REF1N" 4.00628
+cap "VDPWR" "bmr_0/VBP_REF10N" 0.299153
+cap "bmr_0/VCC" "rst_n" 1.82135
+cap "VDPWR" "bmr_0/XM1/G" 0.409075
+cap "bmr_0/VCC" "bmr_0/VBN_REF1N" -1.38778e-17
+cap "bmr_0/VCC" "VDPWR" 122.681
+cap "bmr_0/XM4/B" "VDPWR" 122.41
+cap "bmr_0/XM1/G" "VDPWR" 9.21338
+cap "bmr_0/VBP_REF1N" "VDPWR" 4.62818
+cap "bmr_0/XM4/B" "VDPWR" 120.595
+cap "VDPWR" "bmr_0/XM4/B" 40.2703
+cap "bmr_0/VBP_REF1N" "VDPWR" 5.56712
+cap "input_current_bank_0/V_STIM" "VDPWR" 9.46042
+cap "input_current_bank_0/VCC" "input_current_bank_0/V_STIM" 0.292288
+cap "input_current_bank_0/V_STIM" "input_current_bank_0/VBP_REF1N" 0.025148
+cap "input_current_bank_0/VCC" "input_current_bank_0/VBP_REF1N" 19.7174
+cap "input_current_bank_0/VBP_REF1N" "input_current_bank_0/VCC" -9.84492
+merge "bmr_0/VCC" "input_current_bank_0/VCC" -22742.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2047734 -15544 -361424 -3496 -7989630 -50812 -3660800 -18704 0 0 0 0
+merge "input_current_bank_0/VCC" "input_current_bank_0/X0.5/B"
+merge "input_current_bank_0/X0.5/B" "input_current_bank_0/XM13/B"
+merge "input_current_bank_0/XM13/B" "bmr_0/x1/VCC"
+merge "bmr_0/x1/VCC" "ota_0/XM4/D"
+merge "ota_0/XM4/D" "VDPWR"
+merge "VDPWR" "vamp_if_neuron_0/XR3/R2"
+merge "vamp_if_neuron_0/XR3/R2" "ota_0/XM4/B"
+merge "ota_0/XM4/B" "ota_0/VCC"
+merge "ota_0/VCC" "m1_18492_30542#"
+merge "m1_18492_30542#" "vamp_if_neuron_0/VCC"
+merge "vamp_if_neuron_0/VCC" "vamp_if_neuron_0/XM8/D0"
+merge "vamp_if_neuron_0/XM8/D0" "inv_0/VDD"
+merge "inv_0/VDD" "m1_19506_28834#"
+merge "m1_19506_28834#" "vamp_if_neuron_0/XM8/B"
+merge "vamp_if_neuron_0/XM8/B" "vamp_if_neuron_0/XM6/B"
+merge "vamp_if_neuron_0/XM6/B" "m1_18840_26912#"
+merge "input_current_bank_0/VSUBS" "ota_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "ota_0/VSUBS" "inv_0/VSUBS"
+merge "inv_0/VSUBS" "vamp_if_neuron_0/VSUBS"
+merge "vamp_if_neuron_0/VSUBS" "bmr_0/VSUBS"
+merge "bmr_0/VSUBS" "VSUBS"
+merge "inv_0/OUT" "vamp_if_neuron_0/XM5/G" -925.481 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 376800 4724 0 0 0 0 0 0 0 0
+merge "vamp_if_neuron_0/XM5/G" "vamp_if_neuron_0/m1_16298_16088#"
+merge "vamp_if_neuron_0/m1_16298_16088#" "m1_16962_24280#"
+merge "input_current_bank_0/XM13/S" "input_current_bank_0/XM15/S" -8206.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -216244 -4876 -17168 -612 -612672 -5628 -247296 -5344 0 0 0 0
+merge "input_current_bank_0/XM15/S" "vamp_if_neuron_0/XC1/C2"
+merge "vamp_if_neuron_0/XC1/C2" "m4_15880_31228#"
+merge "m4_15880_31228#" "input_current_bank_0/XM19/S"
+merge "input_current_bank_0/XM19/S" "ota_0/XM1/G"
+merge "ota_0/XM1/G" "ota_0/+"
+merge "ota_0/+" "m1_15878_30076#"
+merge "bmr_0/VSS" "bmr_0/x1/VSS" -14719.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -750384 -7458 -263920 -2916 -5475204 -34814 -7020800 -35504 0 0 0 0
+merge "bmr_0/x1/VSS" "vamp_if_neuron_0/XC3/C1"
+merge "vamp_if_neuron_0/XC3/C1" "vamp_if_neuron_0/XM9/S"
+merge "vamp_if_neuron_0/XM9/S" "ota_0/XM5/B"
+merge "ota_0/XM5/B" "ota_0/VSS"
+merge "ota_0/VSS" "inv_0/XM1/S"
+merge "inv_0/XM1/S" "inv_0/VSS"
+merge "inv_0/VSS" "vamp_if_neuron_0/XC2/C1"
+merge "vamp_if_neuron_0/XC2/C1" "m1_16640_28140#"
+merge "m1_16640_28140#" "vamp_if_neuron_0/VSS"
+merge "vamp_if_neuron_0/VSS" "VGND"
+merge "bmr_0/x1/XM5/S" "bmr_0/x1/XM3/G" -5800.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -798897 -11592 -36432 -764 -634332 -7716 0 0 0 0 0 0
+merge "bmr_0/x1/XM3/G" "ota_0/XM5/G0"
+merge "ota_0/XM5/G0" "vamp_if_neuron_0/XM2/G1"
+merge "vamp_if_neuron_0/XM2/G1" "ota_0/BIAS"
+merge "ota_0/BIAS" "vamp_if_neuron_0/XM2/G0"
+merge "vamp_if_neuron_0/XM2/G0" "m1_15928_29382#"
+merge "m1_15928_29382#" "m1_8790_34908#"
+merge "ota_0/OUT" "inv_0/IN" -645.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80404 -1626 0 0 0 0 0 0 0 0 0 0
+merge "inv_0/IN" "m1_18822_30226#"
+merge "input_current_bank_0/VBP_REF1N" "input_current_bank_0/X0.5/G" -13506.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2816344 -28192 -2448108 -20994 0 0 0 0 0 0 0 0
+merge "input_current_bank_0/X0.5/G" "bmr_0/VBP_REF1N"
+merge "bmr_0/VBP_REF1N" "vamp_if_neuron_0/XM8/G0"
+merge "vamp_if_neuron_0/XM8/G0" "m1_9590_40178#"
+merge "bmr_0/VBN_REF1N" "vamp_if_neuron_0/XM11/G" -8132.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32580 -722 -2431924 -18578 -50220 -912 -1376028 -14982 0 0 0 0
+merge "vamp_if_neuron_0/XM11/G" "vamp_if_neuron_0/m1_19344_14734#"
+merge "vamp_if_neuron_0/m1_19344_14734#" "m1_2766_39548#"
+merge "bmr_0/rst_n" "rst_n" -1148.63 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40180 -802 0 0 0 0 -878484 -7934 0 0 0 0
+merge "ota_0/-" "vamp_if_neuron_0/XR3/R1" -631.839 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -126496 -2040 0 0 0 0 0 0 0 0 0 0
+merge "vamp_if_neuron_0/XR3/R1" "m1_18836_29898#"
+merge "vamp_if_neuron_0/XM10/D0" "vamp_if_neuron_0/V_MEM_BUF" -3541.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -426488 -5788 0 0 0 0 0 0 0 0 0 0
+merge "vamp_if_neuron_0/V_MEM_BUF" "vamp_if_neuron_0/XM10/D1"
+merge "vamp_if_neuron_0/XM10/D1" "ua[0]"
+merge "vamp_if_neuron_0/m1_17680_17664#" "bmr_0/VBP_REF10N" -1497.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42585 -830 -24940 -644 0 0 0 0 0 0 0 0
+merge "bmr_0/VBP_REF10N" "vamp_if_neuron_0/XM7/G"
+merge "vamp_if_neuron_0/XM7/G" "vamp_if_neuron_0/XM10/G0"
+merge "vamp_if_neuron_0/XM10/G0" "m1_9388_33292#"
+merge "input_current_bank_0/IN5" "ui_in[4]" -3068.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -982912 -7666 -80696 -1140 -84036 -1160 -192780 -4922 0 0 0 0
+merge "input_current_bank_0/IN4" "ui_in[3]" -1586.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -980616 -7642 0 0 0 0 0 0 0 0 0 0
+merge "input_current_bank_0/IN3" "ui_in[2]" -1583.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -981796 -7654 0 0 0 0 0 0 0 0 0 0
+merge "input_current_bank_0/IN2" "ui_in[1]" -1682.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -882684 -6961 0 0 0 0 0 0 0 0 0 0
+merge "input_current_bank_0/IN1" "ui_in[0]" -1896.99 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -848800 -6424 0 0 0 0 0 0 0 0 0 0
