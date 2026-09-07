@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1788804980
+timestamp 1788805434
 << locali >>
 rect 16302 20044 21086 20148
 rect 16302 19926 16426 20044
@@ -141,8 +141,9 @@ rect 24874 14500 25154 14512
 rect 20572 14202 20750 14474
 rect 19990 13984 21424 14202
 rect 24842 14026 25264 14500
-rect 27900 14496 28212 14560
-rect 27244 14424 28212 14496
+rect 27254 14496 28224 14656
+rect 27244 14432 28224 14496
+rect 27244 14424 28212 14432
 rect 19894 13678 21516 13850
 rect 24874 13832 25154 14026
 rect 27176 13942 27558 13944
@@ -426,14 +427,14 @@ use sky130_fd_pr__nfet_01v8_PCYQPL  XM11
 timestamp 1788765446
 transform 0 1 20146 -1 0 14885
 box -596 -310 596 310
-use sky130_fd_pr__res_xhigh_po_1p41_G5HDXZ  XR3
-timestamp 1788804747
-transform 0 -1 26260 1 0 14461
-box -201 -1582 201 1582
-use sky130_fd_pr__res_xhigh_po_1p41_6YDR5Y  XR4
-timestamp 1788804747
-transform 0 -1 25922 1 0 13859
-box -201 -1218 201 1218
+use sky130_fd_pr__res_xhigh_po_1p41_9JK8FW  XR3
+timestamp 0
+transform 0 -1 26260 1 0 14567
+box -307 -1582 307 1582
+use sky130_fd_pr__res_xhigh_po_1p41_LYD3DF  XR4
+timestamp 0
+transform 0 -1 25922 1 0 13965
+box -307 -1218 307 1218
 << labels >>
 flabel metal1 19346 12536 19546 12736 0 FreeSans 1600 0 0 0 VSS
 port 2 nsew
